@@ -1,3 +1,3 @@
 | **Nom**           | ***Range*** |
 | ----------------- | ----------- |
-| identifiant scanr | xsd:string  |
+| identifiant siret | xsd:string  |

@@ -1,25 +1,40 @@
 ## Modélisation
 
-<!-- ```mermaid
+### Bénéficiaire
 
-``` -->
+```mermaid
+graph LR
+    ORG(Organisation)--- _{{est signataire de}}
+    _ --> CONTRAT(Contrat)
+    _ -.-> |en tant que mandataire de| ORG
+    _ -.-> |preuve| P(Preuve)
+    _ -.-> |source| S[xsd:string]
+```
+### Signataires
+
+```mermaid
+graph LR
+    ORG(Organisation)--- _{{est bénéficiaire de}}
+    _ --> CONTRAT(Contrat)
+    _ -.-> |en tant que mandant de| ORG
+    _ -.-> |début| xsd:date
+    _ -.-> |fin| xsd:date
+    _ -.-> |preuve| P(Preuve)
+    _ -.-> |source| S[xsd:string]
+```
 
 ## Propriétés
 
 
-| **Propriétés**                                                                       | ***Domain***        | ***Range***  | **Cardinalité** |
-| ------------------------------------------------------------------------------------ | ------------------- | ------------ | --------------- |
-| est signataire de <sup>`en tant que mandataire de, preuve, source, début, fin`</sup> | Organisation        | Contrat      | F/R             |
-| est bénéficiaire de <sup>`en tant que mandant de, preuve, source, début, fin`</sup>  | Organisation        | Contrat      | F/R             |
-| en tant que mandataire de                                                            | est signataire de   | Organisation | F/R             |
-| en tant que mandant de                                                               | est bénéficiaire de | Organisation | F/R             |
+| **Propriétés**                                                                      | ***Domain***        | ***Range***  | **Cardinalité** |
+| ----------------------------------------------------------------------------------- | ------------------- | ------------ | --------------- |
+| est signataire de <sup>`en tant que mandataire de, preuve, source`</sup>            | Organisation        | Contrat      | F/R             |
+| est bénéficiaire de <sup>`en tant que mandant de, preuve, source, début, fin`</sup> | Organisation        | Contrat      | F/R             |
+| en tant que mandataire de                                                           | est signataire de   | Organisation | F/R             |
+| en tant que mandant de                                                              | est bénéficiaire de | Organisation | F/R             |
 
 
 ## Exemple : Les contrats de documentation électronique de Paris 11
-
-
-
-
 
 ## Cas d'usage
 

@@ -1,3 +1,3 @@
 | **Nom**             | ***Range*** |
 | ------------------- | ----------- |
-| identifiant paysage | xsd:string  |
+| identifiant contrat | xsd:string  |

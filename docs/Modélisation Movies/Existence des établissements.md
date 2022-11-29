@@ -1,3 +1,17 @@
+## Modélisation
+
+```mermaid
+graph LR
+    ORG("Organisation")
+    ORG --- CREA{{création}} --> xsd:date
+    CREA -..-> |preuve| P(Preuve)
+    CREA -..-> |source| xsd:string
+    
+    ORG --- SUPPR{{suppresion}} -->  xsd:date
+    SUPPR -..-> |preuve| P
+    SUPPR -..-> |source| xsd:string
+```
+
 ## Propriétés
 
 L'existence des établissements peut être décrit avec les propriétés suivantes :
@@ -17,7 +31,7 @@ graph LR
     C -.- |preuve| PreuveCrea(Arrêté du XXX)
     C -.- |source| SourceCrea[''paysage'']
     
-    PS--- SUPPR{{Suppresion}} --- S(( )) --- 2019-12-31
+    PS--- SUPPR{{suppresion}} --- S(( )) --- 2019-12-31
     S(( )) -.- |preuve| PreuveSuppr(Arrêté du XXX)
     S(( )) -.- |source| SourceSuppr[''paysage'']
 ```

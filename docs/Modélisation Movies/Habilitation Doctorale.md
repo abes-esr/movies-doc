@@ -3,12 +3,12 @@
 ```mermaid
 graph LR
     ORG(Organisation) 
-    HAB(( ))
-    ORG ---|habilitation| HAB
-    HAB ---|début| xsd:date
-    HAB ---|fin| xsd:date
-    HAB -.- |preuve| PreuveHAB(Preuve)
-    HAB -.- |source| SourceHAB[xsd:string]
+    ORG --- HAB{{habilitation doctorale}}
+    HAB -.->|début| xsd:date
+    HAB -.->|fin| xsd:date
+    HAB -.-> |preuve| PreuveHAB(Preuve)
+    HAB -.-> |source| SourceHAB[xsd:string]
+    HAB --> Habilitation(Habilitation)
 ```
 
 ## Propriétés

@@ -1,5 +1,17 @@
 ## Modélisation
 
+```mermaid
+graph LR
+    ORG("Organisation")
+    ORG --- PRED{{a pour prédécesseur}} ---> ORG
+    PRED -..-> |preuve| P(Preuve)
+    PRED -..-> |source| xsd:string
+    
+    ORG --- SUCC{{a pour successeur}} --->  ORG
+    SUCC -..-> |preuve| P
+    SUCC -..-> |source| xsd:string
+```
+
 ## Propriétés
 
 | **Propriétés**                                  | ***Domain*** | ***Range***  | ***Cardinalité*** |

@@ -20,34 +20,34 @@ graph LR
 
 :::caution
 
-### Listes des propriétés ne pouvant pas être bornées chronologiquement
+### Listes des ropriétés ne pouvant pas être bornées chronologiquement
 
 **Les propriétés internes à l'ontologie : **
-* instance de
-* sous classe de
-* sous propriété de
+* [instance de](Propriétés/instance%20de.md)
+* [sous classe de](Propriétés/sous%20classe%20de.md)
+* [sous propriété de](Propriétés/sous%20propriété%20de.md)
 
 **Les propriétés relatives aux dates :**
-* début
-* fin
-* fin application
-* début application
-* suppression
+* [début](Propriétés/début.md)
+* [fin](Propriétés/fin.md)
+* [fin application](Propriétés/fin%20application.md)
+* [début application](Propriétés/début%20application.md)
+* [suppression](Propriétés/suppression.md)
 
 **Les identifiants :**
-* code uai
-* création
-* identifiant siren
-* identifiant siret
-* identifiant idref
-* identifiant rsnr
-* identifiant wikidata
-* identifiant hal
-* identifiant legifrance
-* identifiant paysage
-* identifiant scanr
-* identifiant contrat
-* uri
+* [code uai](Propriétés/code%20uai.md)
+* [création](Propriétés/création.md)
+* [identifiant siren](Propriétés/identifiant%20siren.md)
+* [identifiant siret](Propriétés/identifiant%20siret.md)
+* [identifiant idref](Propriétés/identifiant%20idref.md)
+* [identifiant rsnr](Propriétés/identifiant%20rsnr.md)
+* [identifiant wikidata](Propriétés/identifiant%20wikidata.md)
+* [identifiant hal](Propriétés/identifiant%20hal.md)
+* [identifiant legifrance](Propriétés/identifiant%20legifrance.md)
+* [identifiant paysage](Propriétés/identifiant%20paysage.md)
+* [identifiant scanr](Propriétés/identifiant%20scanr.md)
+* [identifiant contrat](Propriétés/identifiant%20contrat.md)
+* [uri](Propriétés/uri.md)
 
 **autre :**
 * forme juridique (le changement de forme juridique entraîne la création d'une nouvelle entité)
