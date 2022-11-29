@@ -4,25 +4,24 @@
 
 Les propriétés suivantes peuvent être utilisées pour rendre compte de la compisition d'un établissement :
 
-| Propriétés | *Domain* | *Range* |
-| --- | --- | --- |
-| [a pour membre](Propriétés/a%20pour%20membre.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [est membre de](Propriétés/est%20membre%20de.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [a pour membre constitutif](Propriétés/a%20pour%20membre%20constitutif.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [est membre constitutif](Propriétés/est%20membre%20constitutif.md) de <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [a pour membre associé](Propriétés/a%20pour%20membre%20associé.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [est membre associé de](Propriétés/est%20membre%20associé%20de.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [a pour établissement support](Propriétés/a%20pour%20établissement%20support.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
-| [est établissement support de](Propriétés/est%20établissement%20support%20de.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation |
+| Propriétés                                                                                                               | *Domain*     | *Range*      | **Cardinalité** |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------ | --------------- |
+| [a pour membre](Propriétés/a%20pour%20membre.md) <sup>`début, fin, preuve, source`</sup>                                 | Organisation | Organisation | F/R             |
+| [est membre de](Propriétés/est%20membre%20de.md) <sup>`début, fin, preuve, source`</sup>                                 | Organisation | Organisation | F/R             |
+| [a pour membre constitutif](Propriétés/a%20pour%20membre%20constitutif.md) <sup>`début, fin, preuve, source`</sup>       | EPE          | Organisation | F/R             |
+| [est membre constitutif](Propriétés/est%20membre%20constitutif.md) de <sup>`début, fin, preuve, source`</sup>            | Organisation | Organisation | F/?             |
+| [a pour membre associé](Propriétés/a%20pour%20membre%20associé.md) <sup>`début, fin, preuve, source`</sup>               | EPE          | Organisation | F/R             |
+| [est membre associé de](Propriétés/est%20membre%20associé%20de.md) <sup>`début, fin, preuve, source`</sup>               | Organisation | Organisation | F/?             |
+| [a pour établissement support](Propriétés/a%20pour%20établissement%20support.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation | F/?             |
+| [est établissement support de](Propriétés/est%20établissement%20support%20de.md) <sup>`début, fin, preuve, source`</sup> | Organisation | Organisation | F/R             |
 
-Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](Propriétés/début.md) et [`fin`](Propriétés/fin.md). Chacune des assertion peut être complété par une preuve et un source.
+Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](Propriétés/début.md) et [`fin`](Propriétés/fin.md). Chacune des assertions peut être complétée par une preuve et une source.
 
 ## Exemple : Les membres constitutifs de l'EPE Paris Saclay
 
-
 ```mermaid
 graph LR
-    PS(Paris Saclay EPE)
+    PS("Paris Saclay (EPE)")
     AGPT(Agro Paris Tech)
     SUPELEC(CentraleSupélec)
     ENS(École normale supérieure Paris-Saclay)

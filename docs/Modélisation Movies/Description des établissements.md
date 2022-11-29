@@ -53,17 +53,17 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
 
 Les établissements peuvent être décrit avec les propriétés suivantes :
 
-| **Propriétés** | ***Domain*** | ***Range*** |
-| --- | --- | --- |
-| nom | Organisation | xsd:string |
-| sigle | Organisation | xsd:string |
-| forme juridique | Organisation | FormeJuridique |
-| siren | Organisation | xsd:string |
-| siret | Organisation | xsd:string |
-| code établissement | Organisation | xsd:string |
-| identifiant paysage | Organisation | xsd:string |
-| identifiant idref | Organisation | xsd:string |
-| identifiant scanr | Organisation | xsd:string |
-| identifiant wikidata | Organisation | xsd:string |
-| identifiant hal | Organisation | xsd:string |
-| identifiant RNSR | Organisation | xsd:string |
+| **Propriétés**       | ***Domain*** | ***Range***    | **Cardinalité** |
+| -------------------- | ------------ | -------------- | --------------- |
+| nom                  | Organisation | xsd:string     | O/NR            |
+| sigle                | Organisation | xsd:string     | F/NR            |
+| forme juridique      | Organisation | FormeJuridique | F/NR            |
+| siren                | Organisation | xsd:string     | F/NR            |
+| siret                | Organisation | xsd:string     | F/NR            |
+| code établissement   | Organisation | xsd:string     | F/NR            |
+| identifiant paysage  | Organisation | xsd:string     | F/NR            |
+| identifiant idref    | Organisation | xsd:string     | F/NR            |
+| identifiant scanr    | Organisation | xsd:string     | F/NR            |
+| identifiant wikidata | Organisation | xsd:string     | F/NR            |
+| identifiant hal      | Organisation | xsd:string     | F/NR            |
+| identifiant RNSR     | Organisation | xsd:string     | F/NR            |

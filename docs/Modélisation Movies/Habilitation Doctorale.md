@@ -11,7 +11,7 @@ graph LR
     HAB -.- |source| SourceHAB[xsd:string]
 ```
 
-## Propriétés :
+## Propriétés
 
 
 | **Propriétés** | ***Domain*** | ***Range*** |
@@ -23,11 +23,11 @@ graph LR
 
 ```mermaid
 graph LR
-    PS(Paris Saclay COMUE) 
+    PS("Paris Saclay (COMUE)") 
     HAB(( ))
     PS --- |habilitation| HAB
-    HAB ---|début| 2015/09/01
-    HAB ---|fin| 2019/12/31
+    HAB ---|début| 2015-09-01
+    HAB ---|fin| 2019-12-31
     HAB -.- |preuve| PreuveHAB(Arrêté du XXX)
     HAB -.- |source| SourceHAB[''STHE'']
 ```
