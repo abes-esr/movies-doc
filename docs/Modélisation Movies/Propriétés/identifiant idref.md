@@ -1,3 +1,3 @@
-| **Nom**           | ***Range*** |
-| ----------------- | ----------- |
-| identifiant idref | xsd:string  |
+| **Nom**           | ***Domain*** | ***Range*** | **Cardinalité** |
+| ----------------- | ------------ | ----------- | --------------- |
+| identifiant idref | Organisation | xsd:string  | F/NR            |

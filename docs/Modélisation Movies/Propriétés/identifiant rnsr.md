@@ -1,3 +1,3 @@
-| **Nom**          | ***Range*** |
-| ---------------- | ----------- |
-| identifiant rnsr | xsd:string  |
+| **Nom**          | ***Domain*** | ***Range*** | **Cardinalité** |
+| ---------------- | ------------ | ----------- | --------------- |
+| identifiant rnsr | Organisation | xsd:string  | F/NR            |

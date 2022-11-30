@@ -1,6 +1,6 @@
 | **Nom**  | ***Domain*** | ***Range*** | **Cardinalité** |
 | -------- | ------------ | ----------- | --------------- |
-| création | Organisation | xsd:date    | O/NR             |
+| création | Organisation | xsd:date    | O/NR            |
 
 ## Définition
 

@@ -1,3 +1,3 @@
-| **Nom**           | ***Range*** |
-| ----------------- | ----------- |
-| identifiant siret | xsd:string  |
+| **Nom**           | ***Domain*** | ***Range*** | **Cardinalité** |
+| ----------------- | ------------ | ----------- | --------------- |
+| identifiant siret | Organisation | xsd:string  | F/NR            |

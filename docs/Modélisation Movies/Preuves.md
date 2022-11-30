@@ -1,8 +1,8 @@
-## Définition
+Les preuves sont des documents sur lesquels sont fondées les assertions de la modélisation Movies. Les preuves peuvent être des documents officiels, des documents administratifs, des contrats, etc.
 
-Les preuves sont de documents sur lesquels sont fondées les assertions de la modélisation Movies. Les preuves peuvent être des documents officiels, des documents administratifs, des contrats, etc.
+## Classes
 
-Une preuve est l'instance d'une des classes suivantes :
+Une preuve est l'instance de l'une des classes suivantes :
 
 ```
 Preuve
@@ -13,8 +13,12 @@ Preuve
     ╰─ Contrat
 ```
 
+## Propriétés
+
+| **Propriétés**                 | ***Domain*** | ***Range*** | Cardinalité |
+| ------------------------------ | ------------ | ----------- | ----------- |
+| [preuve](Propriétés/preuve.md) |              | xsd:anyUri  | F/R         |
+
 ## Cas d’usage
 
-### Trouver les propriétés sans fondement juridique susceptible d’en avoir un 
-
-(c’est-à-dire il faut trouver les documents) \[création, suppression, habilitation doctorale\]
+### Trouver les propriétés sans fondement juridique susceptible d’en avoir un

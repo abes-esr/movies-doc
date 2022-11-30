@@ -1,3 +1,3 @@
-| **Nom**  | ***Range*** |
-| -------- | ----------- |
-| code uai | xsd:string  |
+| **Nom**  | ***Domain*** | ***Range*** | **Cardinalité** |
+| -------- | ------------ | ----------- | --------------- |
+| code uai | Organisation | xsd:string  | F/NR            |

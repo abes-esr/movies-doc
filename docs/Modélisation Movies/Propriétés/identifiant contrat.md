@@ -1,3 +1,3 @@
-| **Nom**             | ***Range*** |
-| ------------------- | ----------- |
-| identifiant contrat | xsd:string  |
+| **Nom**             | ***Domain*** | ***Range*** | **Cardinalité** |
+| ------------------- | ------------ | ----------- | --------------- |
+| identifiant contrat | Contrat      | xsd:string  | O/NR            |

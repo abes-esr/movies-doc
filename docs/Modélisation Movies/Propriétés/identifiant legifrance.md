@@ -1,3 +1,3 @@
-| **Nom**                | ***Range*** |
-| ---------------------- | ----------- |
-| identifiant legifrance | xsd:string  |
+| **Nom**                | ***Domain*** | ***Range*** | **Cardinalité** |
+| ---------------------- | ------------ | ----------- | --------------- |
+| identifiant legifrance | Preuve       | xsd:string  | F/NR            |

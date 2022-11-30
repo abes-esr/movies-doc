@@ -1,3 +1,3 @@
-| **Nom**           | ***Range*** |
-| ----------------- | ----------- |
-| identifiant scanr | xsd:string  |
+| **Nom**           | ***Domain*** | ***Range*** | **Cardinalité** |
+| ----------------- | ------------ | ----------- | --------------- |
+| identifiant scanr | Organisation | xsd:string  | F/NR            |

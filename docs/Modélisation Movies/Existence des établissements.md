@@ -1,13 +1,26 @@
 ## Modélisation
 
+### Création
+
 ```mermaid
 graph LR
     ORG("Organisation")
-    ORG --- CREA{{création}} --> xsd:date
-    CREA -..-> |preuve| P(Preuve)
+    CREA{{création}}
+    P(Preuve)
+
+    ORG --- CREA ---> xsd:date
+    CREA -..-> |preuve| P
     CREA -..-> |source| xsd:string
+```
+### Suppression
+
+```mermaid
+graph LR
+    ORG("Organisation")
+    SUPPR{{suppresion}}
+    P(Preuve)
     
-    ORG --- SUPPR{{suppresion}} -->  xsd:date
+    ORG --- SUPPR --->  xsd:date
     SUPPR -..-> |preuve| P
     SUPPR -..-> |source| xsd:string
 ```
@@ -16,25 +29,25 @@ graph LR
 
 L'existence des établissements peut être décrit avec les propriétés suivantes :
 
-| **Propriétés**                          | ***Domain*** | ***Range*** | ***Cardinalité*** |
-| --------------------------------------- | ------------ | ----------- | ----------------- |
-| création <sup>`preuve, source`</sup>    | Organisation | xsd:date    | O/NR              |
-| suppression <sup>`preuve, source`</sup> | Organisation | xsd:date    | F/NR              |
+| **Propriétés**                                       | ***Domain*** | ***Range*** | ***Cardinalité*** |
+| ---------------------------------------------------- | ------------ | ----------- | ----------------- |
+| création <sup><sup>`preuve`, `source`</sup></sup>    | Organisation | xsd:date    | O/NR              |
+| suppression <sup><sup>`preuve`, `source`</sup></sup> | Organisation | xsd:date    | F/NR              |
 
 
-## Exemple : L'existence de la Comue Paris Saclay
+## Exemple : L'existence de la Comue Paris-Saclay
 
 ```mermaid
 graph LR
-    PS("Paris Saclay (COMUE)")
-    PS --- CREA{{création}} --- C(( )) ---  2007-03-23
-    C -.- |preuve| PreuveCrea(Arrêté du XXX)
-    C -.- |source| SourceCrea[''paysage'']
+    PS("Université Paris-Saclay (COMUE)")
+    CREA{{création}}
+    SUPPR{{suppresion}}
+
+    PS --- CREA --> 2007-03-23
+    CREA -.-> |preuve| PreuveCrea(Arrêté du XXX)
+    CREA -.-> |source| SourceCrea[''paysage'']
     
-    PS--- SUPPR{{suppresion}} --- S(( )) --- 2019-12-31
-    S(( )) -.- |preuve| PreuveSuppr(Arrêté du XXX)
-    S(( )) -.- |source| SourceSuppr[''paysage'']
+    PS--- SUPPR --> 2019-12-31
+    SUPPR -.-> |preuve| PreuveSuppr(Arrêté du XXX)
+    SUPPR -.-> |source| SourceSuppr[''paysage'']
 ```
-:::caution
-Les propriétés `création` et `suppression` ne peuvent être appliquées qu'une seul fois. Pour un établissement donné il n'existe qu'une seul date de création et de suppression.
-:::

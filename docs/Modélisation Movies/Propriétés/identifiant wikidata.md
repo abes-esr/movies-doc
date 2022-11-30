@@ -1,3 +1,3 @@
-| **Nom**              | ***Range*** |
-| -------------------- | ----------- |
-| identifiant wikidata | xsd:string  |
+| **Nom**              | ***Domain*** | ***Range*** | **Cardinalité** |
+| -------------------- | ------------ | ----------- | --------------- |
+| identifiant wikidata | Organisation | xsd:string  | F/NR            |

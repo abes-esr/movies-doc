@@ -4,11 +4,14 @@ Les propriétés de la modélisation Movies peuvent être bornées dans le temps
 
 ```mermaid
 graph LR
-    S(Sujet) --- P
-    P(Prédicat) --- _(( )) 
-    _ --> O(Objet)
-    _-.-|début| xsd:date
-    _-.-|fin| xsd:date
+    S(Sujet)
+    P{{Prédicat}}
+    O(Objet)
+
+
+    S --- P --> O
+    P -.-|début| xsd:date
+    P -.-|fin| xsd:date
 ```
 
 ## Propriétés
@@ -54,14 +57,15 @@ graph LR
 :::
 
 
-## Exemple : L'habilitation de l'Université Paris Saclay (COMUE) à délivrer le doctorat
+## Exemple : L'habilitation de l'Université Paris-Saclay (COMUE) à délivrer le doctorat
 
 ```mermaid
 graph LR
-    SACL("Université Paris Saclay (COMUE)") --- H{{habilitation doctorale}}
-    H ---- Habilitation
-    H --- _(( ))   
-    _-.-|début| 2015-09-01
-    _-.-|fin| 2019-12-31
+    SACL("Université Paris-Saclay (COMUE)")
+    HAB{{habilitation doctorale}}
+
+    SACL --- HAB --> Habilitation
+    HAB-.-|début| 2015-09-01
+    HAB-.-|fin| 2019-12-31
 ```
 
