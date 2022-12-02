@@ -1,6 +1,6 @@
 ## Modélisation
 
-### Bénéficiaire
+### Bénéficiaires
 
 ```mermaid
 graph LR
