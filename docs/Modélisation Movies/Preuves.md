@@ -17,7 +17,7 @@ Preuve
 
 | **Propriétés**                 | ***Domain*** | ***Range*** | Cardinalité |
 | ------------------------------ | ------------ | ----------- | ----------- |
-| [preuve](Propriétés/preuve.md) |              | xsd:anyUri  | F/R         |
+| [preuve](../Ontologie/Propriétés/preuve.md) |              | Preuve      | F/R         |
 
 ## Cas d’usage
 

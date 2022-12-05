@@ -18,39 +18,39 @@ graph LR
 
 | **Propriétés**               | ***Domain*** | ***Range*** |
 | ---------------------------- | ------------ | ----------- |
-| [début](Propriétés/début.md) |              | xsd:date    |
-| [fin](Propriétés/fin.md)     |              | xsd:date    |
+| [début](../Ontologie/Propriétés/début.md) |              | xsd:date    |
+| [fin](../Ontologie/Propriétés/fin.md)     |              | xsd:date    |
 
 :::caution
 
 ### Listes des ropriétés ne pouvant pas être bornées chronologiquement
 
 **Les propriétés internes à l'ontologie : **
-* [instance de](Propriétés/instance%20de.md)
-* [sous classe de](Propriétés/sous%20classe%20de.md)
-* [sous propriété de](Propriétés/sous%20propriété%20de.md)
+* [instance de](../Ontologie/Propriétés/instance%20de.md)
+<!-- * [sous classe de](../Ontologie/Propriétés/sous%20classe%20de.md) -->
+<!-- * [sous propriété de](../Ontologie/Propriétés/sous%20propriété%20de.md) -->
 
 **Les propriétés relatives aux dates :**
-* [début](Propriétés/début.md)
-* [fin](Propriétés/fin.md)
-* [fin application](Propriétés/fin%20application.md)
-* [début application](Propriétés/début%20application.md)
-* [suppression](Propriétés/suppression.md)
+* [début](../Ontologie/Propriétés/début.md)
+* [fin](../Ontologie/Propriétés/fin.md)
+* [fin application](../Ontologie/Propriétés/fin%20application.md)
+* [début application](../Ontologie/Propriétés/début%20application.md)
+* [suppression](../Ontologie/Propriétés/suppression.md)
 
 **Les identifiants :**
-* [code uai](Propriétés/code%20uai.md)
-* [création](Propriétés/création.md)
-* [identifiant siren](Propriétés/identifiant%20siren.md)
-* [identifiant siret](Propriétés/identifiant%20siret.md)
-* [identifiant idref](Propriétés/identifiant%20idref.md)
-* [identifiant rsnr](Propriétés/identifiant%20rsnr.md)
-* [identifiant wikidata](Propriétés/identifiant%20wikidata.md)
-* [identifiant hal](Propriétés/identifiant%20hal.md)
-* [identifiant legifrance](Propriétés/identifiant%20legifrance.md)
-* [identifiant paysage](Propriétés/identifiant%20paysage.md)
-* [identifiant scanr](Propriétés/identifiant%20scanr.md)
-* [identifiant contrat](Propriétés/identifiant%20contrat.md)
-* [uri](Propriétés/uri.md)
+* [code uai](../Ontologie/Propriétés/code%20uai.md)
+* [création](../Ontologie/Propriétés/création.md)
+* [identifiant siren](../Ontologie/Propriétés/identifiant%20siren.md)
+* [identifiant siret](../Ontologie/Propriétés/identifiant%20siret.md)
+* [identifiant idref](../Ontologie/Propriétés/identifiant%20idref.md)
+* [identifiant rsnr](../Ontologie/Propriétés/identifiant%20rnsr.md)
+* [identifiant wikidata](../Ontologie/Propriétés/identifiant%20wikidata.md)
+* [identifiant hal](../Ontologie/Propriétés/identifiant%20hal.md)
+* [identifiant legifrance](../Ontologie/Propriétés/identifiant%20legifrance.md)
+* [identifiant paysage](../Ontologie/Propriétés/identifiant%20paysage.md)
+* [identifiant scanr](../Ontologie/Propriétés/identifiant%20scanr.md)
+* [identifiant contrat](../Ontologie/Propriétés/identifiant%20contrat.md)
+* [uri](../Ontologie/Propriétés/uri.md)
 
 **autre :**
 * forme juridique (le changement de forme juridique entraîne la création d'une nouvelle entité)

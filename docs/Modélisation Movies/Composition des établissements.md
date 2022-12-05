@@ -32,17 +32,19 @@ Les propriétés suivantes peuvent être utilisées pour rendre compte de la com
 
 | Propriétés                                                                                                                                | *Domain*     | *Range*      | **Cardinalité** |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ | --------------- |
-| [a pour membre](Propriétés/a%20pour%20membre.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>                                 | Organisation | Organisation | F/R             |
-| [est membre de](Propriétés/est%20membre%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>                                 | Organisation | Organisation | F/R             |
-| [a pour membre constitutif](Propriétés/a%20pour%20membre%20constitutif.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>       | EPE          | Organisation | F/R             |
-| [est membre constitutif de](Propriétés/est%20membre%20constitutif%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>       | Organisation | Organisation | F/?             |
-| [a pour membre associé](Propriétés/a%20pour%20membre%20associé.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>               | EPE          | Organisation | F/R             |
-| [est membre associé de](Propriétés/est%20membre%20associé%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>               | Organisation | Organisation | F/?             |
-| [a pour établissement support](Propriétés/a%20pour%20établissement%20support.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup> | Organisation | Organisation | F/?             |
-| [est établissement support de](Propriétés/est%20établissement%20support%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup> | Organisation | Organisation | F/R             |
+| [est membre de](../Ontologie/Propriétés/est%20membre%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>                                 | Organisation | Organisation | F/R             |
 
 
-Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](Propriétés/début.md) et [`fin`](Propriétés/fin.md). Chacune des assertions peut être complétée par une preuve et une source.
+<!-- | [a pour membre](../Ontologie/Propriétés/a%20pour%20membre.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>                                 | Organisation | Organisation | F/R             | -->
+<!-- | [a pour membre constitutif](../Ontologie/Propriétés/a%20pour%20membre%20constitutif.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>       | EPE          | Organisation | F/R             | -->
+<!-- | [est membre constitutif de](../Ontologie/Propriétés/est%20membre%20constitutif%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>       | Organisation | Organisation | F/?             | -->
+<!-- | [a pour membre associé](../Ontologie/Propriétés/a%20pour%20membre%20associé.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>               | EPE          | Organisation | F/R             | -->
+<!-- | [est membre associé de](../Ontologie/Propriétés/est%20membre%20associé%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>               | Organisation | Organisation | F/?             | -->
+<!-- | [a pour établissement support](../Ontologie/Propriétés/a%20pour%20établissement%20support.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup> | Organisation | Organisation | F/?             | -->
+<!-- | [est établissement support de](../Ontologie/Propriétés/est%20établissement%20support%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup> | Organisation | Organisation | F/R             | -->
+
+
+Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](../Ontologie/Propriétés/début.md) et [`fin`](../Ontologie/Propriétés/fin.md). Chacune des assertions peut être complétée par une preuve et une source.
 
 ## Exemple : Les membres constitutifs de l'EPE Paris-Saclay
 

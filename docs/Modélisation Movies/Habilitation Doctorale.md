@@ -18,10 +18,10 @@ graph LR
 
 | **Propriétés**                                                                                           | ***Domain*** | ***Range*** |
 | -------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
-| [habilitation doctorale](Propriétés/habilitation%20doctorale.md) <sup>`preuve, source, début, fin`</sup> | Organisation |             |
+| [habilitation doctorale](../Ontologie/Propriétés/habilitation%20doctorale.md) <sup>`preuve, source, début, fin`</sup> | Organisation |             |
 
 
-## Exemple : L'[habilitation doctorale](Propriétés/habilitation%20doctorale.md) de Paris-Saclay (COMUE)
+## Exemple : L'[habilitation doctorale](../Ontologie/Propriétés/habilitation%20doctorale.md) de Paris-Saclay (COMUE)
 
 ```mermaid
 graph LR

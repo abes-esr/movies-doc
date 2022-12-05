@@ -1,6 +1,6 @@
 ## Modélisation
 
-### Bénéficiaires
+### Signataires
 
 ```mermaid
 graph LR
@@ -14,7 +14,8 @@ graph LR
     SIG -.-> |preuve| P(Preuve)
     SIG -.-> |source| S[xsd:string]
 ```
-### Signataires
+
+### Bénéficiaires
 
 ```mermaid
 graph LR
@@ -40,6 +41,12 @@ graph LR
 | est bénéficiaire de <sup><sup>`en tant que mandant de`, `preuve`, `source`, `début`, `fin`</sup></sup> | Organisation        | Contrat      | F/R             |
 | en tant que mandataire de                                                                              | est signataire de   | Organisation | F/R             |
 | en tant que mandant de                                                                                 | est bénéficiaire de | Organisation | F/R             |
+| début application                                                                                      | Preuve              | xsd:date     | F/NR            |
+| fin application                                                                                        | Preuve              | xsd:date     | F/NR            |
+
+## Définition
+
+Date de début d'application d'un texte réglementaire ou d'un contrat
 
 
 ## Exemple : Les contrats de documentation électronique de Paris 11
