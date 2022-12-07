@@ -32,17 +32,40 @@ graph LR
     BEN -.-> |source| S[xsd:string]
 ```
 
+### Déscription du contrat
+
+```mermaid
+graph LR
+    CONTRAT(Contrat)
+    SIG{{a pour signataire}}
+    BEN{{a pour bénéficiaire}}
+    ORG(Organisation)
+  
+    CONTRAT --> |début application| xsd:date
+    CONTRAT --> |fin application| xsd:date
+    CONTRAT --> | identifiant contrat | xsd:string
+    CONTRAT --- BEN ---> ORG
+    BEN -.- début -.- xsd:date
+    BEN -.- fin -.- xsd:date
+    BEN -.-> |en tant que mandant de| ORG
+    CONTRAT --- SIG ---> ORG
+    SIG -.-> |en tant que mandataire de| ORG
+
+    
+```
+
 ## Propriétés
 
 
-| **Propriétés**                                                                                         | ***Domain***        | ***Range***  | **Cardinalité** |
-| ------------------------------------------------------------------------------------------------------ | ------------------- | ------------ | --------------- |
-| est signataire de <sup><sup>`en tant que mandataire de`, `preuve`, `source`</sup></sup>                | Organisation        | Contrat      | F/R             |
-| est bénéficiaire de <sup><sup>`en tant que mandant de`, `preuve`, `source`, `début`, `fin`</sup></sup> | Organisation        | Contrat      | F/R             |
-| en tant que mandataire de                                                                              | est signataire de   | Organisation | F/R             |
-| en tant que mandant de                                                                                 | est bénéficiaire de | Organisation | F/R             |
-| début application                                                                                      | Preuve              | xsd:date     | F/NR            |
-| fin application                                                                                        | Preuve              | xsd:date     | F/NR            |
+| **Propriétés**                                                                            | ***Domain***                                                                                  | ***Range***                                                       | **Cardinalité** | **Qualificatifs**                                            |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ------------------------------------------------------------ |
+| [est signataire de](../Ontologie/Propriétés/est%20signataire%20de.md)                     | [Organisation](../Ontologie/Classes/Organisation/Organisation.md)                             | [Contrat](../Ontologie/Classes/Preuve/Contrat.md)                 | F/R             | `en tant que mandataire de`, `preuve`, `source`              |
+| [est bénéficiaire de](../Ontologie/Popriétés/est%20bénéficiaire%20de.md)                  | [Organisation](../Ontologie/Classes/Organisation/Organisation.md)                             | [Contrat](../Ontologie/Classes/Preuve/Contrat.md)                 | F/R             | `en tant que mandant de`, `preuve`, `source`, `début`, `fin` |
+| [en tant que mandataire de](../Ontologie/Propriétés/en%20tant%20que%20mandataire%20de.md) | [est signataire de](../Ontologie/Propriétés/est%20signataire%20de.md)                         | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R             |                                                              |
+| [en tant que mandant de](../Ontologie/Propriétés/en%20tant%20que%20mandant%20de.md)       | [est bénéficiaire de](../Ontologie/Propri%C3%A9t%C3%A9s/est%20b%C3%A9n%C3%A9ficiaire%20de.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R             |                                                              |
+| [identifiant contrat](../Ontologie/Propriétés/identifiant%20contrat.md)                   | [Contrat](../Ontologie/Classes/Preuve/Contrat.md)                                             | xsd:date                                                          | F/NR            |                                                              |
+| [début application](../Ontologie/Propriétés/début%20application.md)                       | Preuve                                                                                        | xsd:date                                                          | F/NR            |                                                              |
+| [fin application](../Ontologie/Propriétés/fin%20application.md)                           | Preuve                                                                                        | xsd:date                                                          | F/NR            |                                                              |
 
 ## Définition
 

@@ -1,7 +1,7 @@
 ## Modélisation
 
 ```mermaid
-graph LR
+graph TD
     ORG(Organisation)
     FORMEJ(Forme juridique)
     
@@ -75,17 +75,17 @@ Les établissements peuvent être décrit avec les propriétés suivantes :
 
 | **Propriétés**                                                            | ***Domain*** | ***Range***    | **Cardinalité**             | **Qualificatifs**                  |
 | ------------------------------------------------------------------------- | ------------ | -------------- | --------------------------- | ---------------------------------- |
-| [nom](../Ontologie/Propriétés/nom.md)                                     | Organisation | xsd:string     | O/R                         | `début`, `fin`, `preuve`, `source` |
-| [sigle](../Ontologie/Propriétés/sigle.md)                                 | Organisation | xsd:string     | F/R                         | `début`, `fin`, `preuve`, `source` |
-| [forme juridique](../Ontologie/Propriétés/forme%20juridique.md)           | Organisation | FormeJuridique | F/NR                        |                                    |
-| [identifiant siren](../Ontologie/Propriétés/identifiant%20siren.md)       | Organisation | xsd:string     | F/NR                        |                                    |
-| [identifiant siret](../Ontologie/Propriétés/identifiant%20siret.md)       | Organisation | xsd:string     | F/NR                        |                                    |
-| [code établissement](../Ontologie/Propriétés/code%20établissement.md)     | Organisation | xsd:string     | F/NR                        |                                    |
-| [identifiant paysage](../Ontologie/Propriétés/identifiant%20paysage.md)   | Organisation | xsd:string     | F/NR                        |                                    |
-| [identifiant idref](../Ontologie/Propriétés/identifiant%20idref.md)       | Organisation | xsd:string     | F/? (en cas de renommage ?) |                                    |
-| [identifiant scanr](../Ontologie/Propriétés/identifiant%20scanr.md)       | Organisation | xsd:string     | F/NR                        |                                    |
-| [identifiant wikidata](../Ontologie/Propriétés/identifiant%20wikidata.md) | Organisation | xsd:string     | F/NR?                       |                                    |
-| [identifiant hal](../Ontologie/Propriétés/identifiant%20hal.md)           | Organisation | xsd:string     | F/NR                        |                                    |
-| [identifiant rnsr](../Ontologie/Propriétés/identifiant%20rnsr.md)         | Organisation | xsd:string     | F/NR                        |                                    |
+| [nom](../Ontologie/Propriétés/nom.md)                                     | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | O/R                         | `début`, `fin`, `preuve`, `source` |
+| [sigle](../Ontologie/Propriétés/sigle.md)                                 | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/R                         | `début`, `fin`, `preuve`, `source` |
+| [forme juridique](../Ontologie/Propriétés/forme%20juridique.md)           | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | Forme Juridique | F/NR                        |                                    |
+| [identifiant siren](../Ontologie/Propriétés/identifiant%20siren.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
+| [identifiant siret](../Ontologie/Propriétés/identifiant%20siret.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
+| [code établissement](../Ontologie/Propriétés/code%20établissement.md)     | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
+| [identifiant paysage](../Ontologie/Propriétés/identifiant%20paysage.md)   | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
+| [identifiant idref](../Ontologie/Propriétés/identifiant%20idref.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/? (en cas de renommage ?) |                                    |
+| [identifiant scanr](../Ontologie/Propriétés/identifiant%20scanr.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
+| [identifiant wikidata](../Ontologie/Propriétés/identifiant%20wikidata.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR?                       |                                    |
+| [identifiant hal](../Ontologie/Propriétés/identifiant%20hal.md)           | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
+| [identifiant rnsr](../Ontologie/Propriétés/identifiant%20rnsr.md)         | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:string     | F/NR                        |                                    |
 
 

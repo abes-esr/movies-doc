@@ -32,11 +32,11 @@ graph LR
 
 ## Propriétés
 
-| **Propriétés**      | ***Domain*** | ***Range***  | ***Cardinalité*** | **Qualificatifs**  |
-| ------------------- | ------------ | ------------ | ----------------- | ------------------ |
-| a pour prédécesseur | Organisation | Organisation | F/R               | `preuve`, `source` |
-| a pour successeur   | Organisation | Organisation | F/R               | `preuve`, `source` |
-| type                |              | Type         | F/NR              | `preuve`, `source` |
+| **Propriétés**                                                            | ***Domain***                                       | ***Range***                                                       | ***Cardinalité*** | **Qualificatifs**          |
+| ------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- | ----------------- | -------------------------- |
+| [a pour prédécesseur](../Ontologie/Propriétés/a%20pour%20prédécesseur.md) | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | `type`, `preuve`, `source` |
+| [a pour successeur](../Ontologie/Propriétés/a%20pour%20successeur.md)     | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | `type`, `preuve`, `source` |
+| [type](../Ontologie/Propriétés/type.md)                                   |                                                    | Type                                                              | F/NR              | `preuve`, `source`         |
 
 
 ## Exemple : Généalogie de l'Université Paris-Saclay (COMUE)

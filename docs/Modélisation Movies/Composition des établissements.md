@@ -30,9 +30,9 @@ graph LR
 
 Les propriétés suivantes peuvent être utilisées pour rendre compte de la compisition d'un établissement :
 
-| Propriétés                                                                                                                                | *Domain*     | *Range*      | **Cardinalité** |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ | --------------- |
-| [est membre de](../Ontologie/Propriétés/est%20membre%20de.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>                                 | Organisation | Organisation | F/R             |
+| Propriétés                                                    | *Domain*                                                          | *Range*                                                           | **Cardinalité** | **Qualificatifs**                  |
+| ------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ---------------------------------- |
+| [est membre de](../Ontologie/Propriétés/est%20membre%20de.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R             | `début`, `fin`, `preuve`, `source` |
 
 
 <!-- | [a pour membre](../Ontologie/Propriétés/a%20pour%20membre.md) <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup>                                 | Organisation | Organisation | F/R             | -->

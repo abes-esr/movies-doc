@@ -29,10 +29,10 @@ graph LR
 
 L'existence des établissements peut être décrit avec les propriétés suivantes :
 
-| **Propriétés** | ***Domain*** | ***Range*** | ***Cardinalité*** | **Qualificatifs**  |
-| -------------- | ------------ | ----------- | ----------------- | ------------------ |
-| création       | Organisation | xsd:date    | O/NR              | `preuve`, `source` |
-| suppression    | Organisation | xsd:date    | F/NR              | `preuve`, `source` |
+| **Propriétés**                                        | ***Domain***                                                      | ***Range*** | ***Cardinalité*** | **Qualificatifs**  |
+| ----------------------------------------------------- | ----------------------------------------------------------------- | ----------- | ----------------- | ------------------ |
+| [création](../Ontologie/Propriétés/création.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | O/NR              | `preuve`, `source` |
+| [suppression](../Ontologie/Propriétés/suppression.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | F/NR              | `preuve`, `source` |
 
 
 ## Exemple : L'existence de la Comue Paris-Saclay
@@ -45,9 +45,9 @@ graph LR
 
     PS --- CREA --> 2007-03-23
     CREA -.-> |preuve| PreuveCrea(Arrêté du XXX)
-    CREA -.-> |source| SourceCrea[''paysage'']
+    CREA -.-> |source| SourceCrea(''paysage'')
     
     PS--- SUPPR --> 2019-12-31
     SUPPR -.-> |preuve| PreuveSuppr(Arrêté du XXX)
-    SUPPR -.-> |source| SourceSuppr[''paysage'']
+    SUPPR -.-> |source| SourceSuppr(''paysage'')
 ```

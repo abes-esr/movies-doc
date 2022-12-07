@@ -63,7 +63,7 @@ graph LR
     SACL("Université Paris-Saclay (COMUE)")
     HAB{{habilitation doctorale}}
 
-    SACL --- HAB --> Habilitation
+    SACL --- HAB --> H(Habilitation)
     HAB-.-|début| 2015-09-01
     HAB-.-|fin| 2019-12-31
 ```
