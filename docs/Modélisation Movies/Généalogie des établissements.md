@@ -32,11 +32,11 @@ graph LR
 
 ## Propriétés
 
-| **Propriétés**                                                            | ***Domain***                                       | ***Range***                                                       | ***Cardinalité*** | **Qualificatifs**          |
-| ------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- | ----------------- | -------------------------- |
-| [a pour prédécesseur](../Ontologie/Propriétés/a%20pour%20prédécesseur.md) | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | `type`, `preuve`, `source` |
-| [a pour successeur](../Ontologie/Propriétés/a%20pour%20successeur.md)     | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | `type`, `preuve`, `source` |
-| [type](../Ontologie/Propriétés/type.md)                                   |                                                    | Type                                                              | F/NR              | `preuve`, `source`         |
+| **Propriétés**                                                            | ***Domain***                                       | ***Range***                                                       | ***Cardinalité*** | **Qualificatifs**                                                                                                                       |
+| ------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| [a pour prédécesseur](../Ontologie/Propriétés/a%20pour%20prédécesseur.md) | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | [`type`](../Ontologie/Propriétés/type.md), [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
+| [a pour successeur](../Ontologie/Propriétés/a%20pour%20successeur.md)     | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | [`type`](../Ontologie/Propriétés/type.md), [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
+| [type](../Ontologie/Propriétés/type.md)                                   |                                                    | Type                                                              | F/NR              | [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md)                                            |
 
 
 ## Exemple : Généalogie de l'Université Paris-Saclay (COMUE)

@@ -1,6 +1,6 @@
-| **Nom**             | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**          |
-| ------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | -------------------------- |
-| a pour prédécesseur | [Organisation](../Classes/Organisation/Organisation.md) | [Organisation](../Classes/Organisation/Organisation.md) | F/R             | `type`, `preuve`, `source` |
+| **Nom**             | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                               |
+| ------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | --------------------------------------------------------------- |
+| a pour prédécesseur | [Organisation](../Classes/Organisation/Organisation.md) | [Organisation](../Classes/Organisation/Organisation.md) | F/R             | [`type`](type.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

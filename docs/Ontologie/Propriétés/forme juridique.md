@@ -1,6 +1,6 @@
-| **Nom**         | ***Domain*** | ***Range***     | **Cardinalité** |
-| --------------- | ------------ | --------------- | --------------- |
-| forme juridique | Organisation | Forme Juridique | F/NR            |
+| **Nom**         | ***Domain***                                            | ***Range***     | **Cardinalité** |
+| --------------- | ------------------------------------------------------- | --------------- | --------------- |
+| forme juridique | [Organisation](../Classes/Organisation/Organisation.md) | Forme Juridique | F/NR            |
 
 
 ## Définition

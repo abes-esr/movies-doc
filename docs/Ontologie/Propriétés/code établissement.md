@@ -1,6 +1,6 @@
-| **Nom**            | ***Domain*** | ***Range*** | **Cardinalité** |
-| ------------------ | ------------ | ----------- | --------------- |
-| code établissement | Organisation | xsd:string  | F/NR            |
+| **Nom**            | ***Domain***                                            | ***Range*** | **Cardinalité** |
+| ------------------ | ------------------------------------------------------- | ----------- | --------------- |
+| code établissement | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/NR            |
 
 ## Définition
 

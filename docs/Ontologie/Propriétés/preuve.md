@@ -1,14 +1,14 @@
-| **Nom** | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs** |
-| ------- | ------------ | ----------- | --------------- | ----------------- |
-| preuve  |              | Preuve      | F/R             | `source`          |
+| **Nom** | ***Domain*** | ***Range***                           | **Cardinalité** | **Qualificatifs**     |
+| ------- | ------------ | ------------------------------------- | --------------- | --------------------- |
+| preuve  |              | [Preuve](../Classes/Preuve/Preuve.md) | F/R             | [`source`](source.md) |
 
 
 ## Définition
 
-La propriété `preuve` d'ajouter une preuve sur une assertion de la modélisation Movies.
+La propriété [`preuve`](preuve.md) d'ajouter une preuve sur une assertion de la modélisation Movies.
 
 :::caution
 
-`type` ne s'utilise qu'en qualificatif d'une propriété.
+[`type`](type.md) ne s'utilise qu'en qualificatif d'une propriété.
 
 :::

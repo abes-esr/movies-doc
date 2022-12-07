@@ -29,10 +29,10 @@ graph LR
 
 L'existence des établissements peut être décrit avec les propriétés suivantes :
 
-| **Propriétés**                                        | ***Domain***                                                      | ***Range*** | ***Cardinalité*** | **Qualificatifs**  |
-| ----------------------------------------------------- | ----------------------------------------------------------------- | ----------- | ----------------- | ------------------ |
-| [création](../Ontologie/Propriétés/création.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | O/NR              | `preuve`, `source` |
-| [suppression](../Ontologie/Propriétés/suppression.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | F/NR              | `preuve`, `source` |
+| **Propriétés**                                        | ***Domain***                                                      | ***Range*** | ***Cardinalité*** | **Qualificatifs**                                                                            |
+| ----------------------------------------------------- | ----------------------------------------------------------------- | ----------- | ----------------- | -------------------------------------------------------------------------------------------- |
+| [création](../Ontologie/Propriétés/création.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | O/NR              | [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
+| [suppression](../Ontologie/Propriétés/suppression.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | F/NR              | [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
 
 
 ## Exemple : L'existence de la Comue Paris-Saclay

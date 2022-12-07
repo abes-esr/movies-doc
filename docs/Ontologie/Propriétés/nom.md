@@ -1,6 +1,6 @@
-| **Nom** | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**                  |
-| ------- | ------------ | ----------- | --------------- | ---------------------------------- |
-| nom     | Organisation | xsd:string  | F/R             | `début`, `fin`, `preuve`, `source` |
+| **Nom** | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                                                                  |
+| ------- | ------------------------------------------------------- | ----------- | --------------- | ---------------------------------------------------------------------------------- |
+| nom     | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

@@ -1,14 +1,14 @@
-| **Nom** | ***Domain*** | ***Range***   | **Cardinalité** |
-| ------- | ------------ | ------------- | --------------- |
-| source  |              | Data Provider | F/R             |
+| **Nom** | ***Domain*** | ***Range***                                                    | **Cardinalité** |
+| ------- | ------------ | -------------------------------------------------------------- | --------------- |
+| source  |              | [Data Provider](../Classes/Data%20Provider/Data%20Provider.md) | F/R             |
 
 
 ## Définition
 
-La propriété `source` permet de désigner le Data Porvider à l'origine de l'assertion.
+La propriété [`source`](source.md) permet de désigner le Data Porvider à l'origine de l'assertion.
 
 :::caution
 
-`type` ne s'utilise qu'en qualificatif d'une propriété.
+[`type`](type.md) ne s'utilise qu'en qualificatif d'une propriété.
 
 :::

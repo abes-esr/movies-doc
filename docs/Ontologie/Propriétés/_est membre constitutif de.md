@@ -1,6 +1,6 @@
-| **Nom**                                                                            | ***Domain*** | ***Range*** | **Cardinalité** |
-| ---------------------------------------------------------------------------------- | ------------ | ----------- | --------------- |
-| est membre constitutif de <sup><sup>`début`, `fin`, `preuve`, `source`</sup></sup> | Organisation | EPE         | O/NR            |
+| **Nom**                                                                                                                            | ***Domain***                                            | ***Range*** | **Cardinalité** |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ----------- | --------------- |
+| est membre constitutif de <sup><sup>[`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md)</sup></sup> | [Organisation](../Classes/Organisation/Organisation.md) | EPE         | O/NR            |
 
 # Définition
 

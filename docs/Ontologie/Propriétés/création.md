@@ -1,6 +1,6 @@
-| **Nom**  | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**  |
-| -------- | ------------ | ----------- | --------------- | ------------------ |
-| création | Organisation | xsd:date    | F/NR            | `preuve`, `source` |
+| **Nom**  | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
+| -------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |
+| création | [Organisation](../Classes/Organisation/Organisation.md) | xsd:date    | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

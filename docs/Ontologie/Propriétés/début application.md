@@ -1,6 +1,6 @@
-| **Nom**           | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**  |
-| ----------------- | ------------ | ----------- | --------------- | ------------------ |
-| début application | Preuve       | xsd:date    | F/NR            | `preuve`, `source` |
+| **Nom**           | ***Domain***                          | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
+| ----------------- | ------------------------------------- | ----------- | --------------- | -------------------------------------------- |
+| début application | [Preuve](../Classes/Preuve/Preuve.md) | xsd:date    | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

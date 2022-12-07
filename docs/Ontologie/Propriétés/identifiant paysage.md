@@ -1,6 +1,6 @@
-| **Nom**             | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**  |
-| ------------------- | ------------ | ----------- | --------------- | ------------------ |
-| identifiant paysage | Organisation | xsd:string  | F/NR            | `preuve`, `source` |
+| **Nom**             | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
+| ------------------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |
+| identifiant paysage | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

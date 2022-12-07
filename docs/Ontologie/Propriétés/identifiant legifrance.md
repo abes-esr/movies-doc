@@ -1,6 +1,6 @@
-| **Nom**                | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**  |
-| ---------------------- | ------------ | ----------- | --------------- | ------------------ |
-| identifiant legifrance | Preuve       | xsd:string  | F/NR            | `preuve`, `source` |
+| **Nom**                | ***Domain***                          | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
+| ---------------------- | ------------------------------------- | ----------- | --------------- | -------------------------------------------- |
+| identifiant legifrance | [Preuve](../Classes/Preuve/Preuve.md) | xsd:string  | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 
