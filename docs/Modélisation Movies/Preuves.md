@@ -15,8 +15,8 @@ Preuve
 
 ## Propriétés
 
-| **Propriétés**                 | ***Domain*** | ***Range*** | Cardinalité |
-| ------------------------------ | ------------ | ----------- | ----------- |
+| **Propriétés**                              | ***Domain*** | ***Range*** | Cardinalité |
+| ------------------------------------------- | ------------ | ----------- | ----------- |
 | [preuve](../Ontologie/Propriétés/preuve.md) |              | Preuve      | F/R         |
 
 ## Cas d’usage

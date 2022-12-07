@@ -8,7 +8,6 @@ graph LR
     P{{Prédicat}}
     O(Objet)
 
-
     S --- P --> O
     P -.-|début| xsd:date
     P -.-|fin| xsd:date
@@ -16,8 +15,8 @@ graph LR
 
 ## Propriétés
 
-| **Propriétés**               | ***Domain*** | ***Range*** |
-| ---------------------------- | ------------ | ----------- |
+| **Propriétés**                            | ***Domain*** | ***Range*** |
+| ----------------------------------------- | ------------ | ----------- |
 | [début](../Ontologie/Propriétés/début.md) |              | xsd:date    |
 | [fin](../Ontologie/Propriétés/fin.md)     |              | xsd:date    |
 

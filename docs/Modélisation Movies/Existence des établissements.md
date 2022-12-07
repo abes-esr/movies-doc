@@ -29,10 +29,10 @@ graph LR
 
 L'existence des établissements peut être décrit avec les propriétés suivantes :
 
-| **Propriétés**                                       | ***Domain*** | ***Range*** | ***Cardinalité*** |
-| ---------------------------------------------------- | ------------ | ----------- | ----------------- |
-| création <sup><sup>`preuve`, `source`</sup></sup>    | Organisation | xsd:date    | O/NR              |
-| suppression <sup><sup>`preuve`, `source`</sup></sup> | Organisation | xsd:date    | F/NR              |
+| **Propriétés** | ***Domain*** | ***Range*** | ***Cardinalité*** | **Qualificatifs**  |
+| -------------- | ------------ | ----------- | ----------------- | ------------------ |
+| création       | Organisation | xsd:date    | O/NR              | `preuve`, `source` |
+| suppression    | Organisation | xsd:date    | F/NR              | `preuve`, `source` |
 
 
 ## Exemple : L'existence de la Comue Paris-Saclay
