@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - contrats
+---
+
 | **Nom**             | ***Domain***                                            | ***Range***                             | **Cardinalité** | **Qualificatifs**                                                                  |
 | ------------------- | ------------------------------------------------------- | --------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |
 | est bénéficiaire de | [Organisation](../Classes/Organisation/Organisation.md) | [Contrat](../Classes/Preuve/Contrat.md) | O/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |

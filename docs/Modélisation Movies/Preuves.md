@@ -1,3 +1,10 @@
+---
+description: ""
+sidebar_position: 1
+tags:
+  - preuves
+---
+
 Les preuves sont des documents sur lesquels sont fondées les assertions de la modélisation Movies. Les preuves peuvent être des documents officiels, des documents administratifs, des contrats, etc.
 
 ## Classes
@@ -15,9 +22,9 @@ Preuve
 
 ## Propriétés
 
-| **Propriétés**                              | ***Domain*** | ***Range*** | Cardinalité |
-| ------------------------------------------- | ------------ | ----------- | ----------- |
-| [preuve](../Ontologie/Propriétés/preuve.md) |              | Preuve      | F/R         |
+| **Propriétés**                              | ***Domain*** | ***Range***                                    | Cardinalité |
+| ------------------------------------------- | ------------ | ---------------------------------------------- | ----------- |
+| [preuve](../Ontologie/Propriétés/preuve.md) |              | [Preuve](../Ontologie/Classes/Preuve/Preuve.md) | F/R         |
 
 ## Cas d’usage
 

@@ -1,4 +1,68 @@
+---
+description: ""
+sidebar_position: 2
+tags:
+  - bornes chronologiques
+---
+export const Claim = ({property, children}) => (
+    <div class="wb-container">
+    <div class="claim-container">
+        <a>{property}</a>
+        {children}        
+    </div>
+    </div>
+);
+
+export const Statement = ({value, children}) => (
+    
+    <div class="statement-container">
+        <div class="value">
+            {value}
+            {children}
+        </div>
+        
+            
+    </div>
+    
+);
+
+export const Reference = ({value, children}) => (
+    <div>
+        <div>
+            {value}
+        </div>
+        <span >
+            {children}
+        </span>
+    </div>
+);
+
+export const Qualificatif = ({property, children}) => (
+    <div class="qualifier-container">
+        <div>
+            <span class="property">{property} :</span><span class="qualifier-value"> {children}</span>
+        </div>
+    </div>
+);
+
 Les propriétés de la modélisation Movies peuvent être bornées dans le temps grâce aux propriétés [`début`](../Ontologie/Propriétés/début.md) et [`fin`](../Ontologie/Propriétés/fin.md).
+
+<Claim property="nnt">
+    <Statement value="123456789">
+        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
+        <Qualificatif property="fin">2012</Qualificatif>
+        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
+        <Qualificatif property="fin">2012</Qualificatif>
+        <Reference value="source">paysage</Reference>
+    </Statement>
+    <Statement value="123456789">
+        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
+        <Qualificatif property="fin">2012</Qualificatif>
+        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
+        <Qualificatif property="fin">2012</Qualificatif>
+        <Reference value="source">paysage</Reference>
+    </Statement>
+</Claim>
 
 ## Modélisation
 

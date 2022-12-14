@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - contrats
+---
+
 | **Nom**           | ***Domain***                                            | ***Range***                             | **Cardinalité** | **Qualificatifs**                            |
 | ----------------- | ------------------------------------------------------- | --------------------------------------- | --------------- | -------------------------------------------- |
 | est signataire de | [Organisation](../Classes/Organisation/Organisation.md) | [Contrat](../Classes/Preuve/Contrat.md) | O/R             | [`preuve`](preuve.md), [`source`](source.md) |

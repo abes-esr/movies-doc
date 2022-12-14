@@ -28,3 +28,47 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.wb-container {
+  background-color: white;
+  min-width: 100%;
+  min-height: 150px;
+  boder: 1px solid #c8ccd1
+}
+
+.claim-container {
+  background-color: #eaecf0;
+  width: 100%;
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.statement-container {
+  background-color: white;
+  float: right;
+  display: block;
+  width: 70%;
+  padding-bottom: 20px;
+  margin-bottom: 1px;
+}
+
+.claim-container .value {
+  margin-left: 20px; 
+}
+
+.qualifier-container {
+  margin-left: 40px;
+  
+}
+
+.qualifier-container > .property {
+  color: #0645ad;
+  font-size: smaller;
+}
+
+.qualifier-container .qualifier-value {
+  margin-right: 50%;
+  float: right;
+  text-align: left;
+}

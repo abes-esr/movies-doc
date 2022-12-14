@@ -41,6 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -58,9 +59,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Movies',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Movies Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -70,6 +71,7 @@ const config = {
             position: 'left',
             label: 'Modélisation',
           },
+          {to: '/tags', label: 'Accès thématiques', position: 'left'},
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
@@ -79,7 +81,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         // links: [
         //   {
         //     title: 'Docs',

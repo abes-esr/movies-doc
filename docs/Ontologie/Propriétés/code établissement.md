@@ -1,3 +1,12 @@
+---
+description: ""
+tags:
+  - identifiants
+  - compétence doctorale
+  - description des organisations
+
+---
+
 | **Nom**            | ***Domain***                                            | ***Range*** | **Cardinalité** |
 | ------------------ | ------------------------------------------------------- | ----------- | --------------- |
 | code établissement | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/NR            |

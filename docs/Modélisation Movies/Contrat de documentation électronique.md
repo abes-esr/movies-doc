@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - contrats
+---
+
 ## Modélisation
 
 ### Signataires
@@ -64,8 +70,8 @@ graph LR
 | [en tant que mandataire de](../Ontologie/Propriétés/en%20tant%20que%20mandataire%20de.md) | [est signataire de](../Ontologie/Propriétés/est%20signataire%20de.md)                         | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R             |                                                                                                                                                                                                                                                                           |
 | [en tant que mandant de](../Ontologie/Propriétés/en%20tant%20que%20mandant%20de.md)       | [est bénéficiaire de](../Ontologie/Propri%C3%A9t%C3%A9s/est%20b%C3%A9n%C3%A9ficiaire%20de.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R             |                                                                                                                                                                                                                                                                           |
 | [identifiant contrat](../Ontologie/Propriétés/identifiant%20contrat.md)                   | [Contrat](../Ontologie/Classes/Preuve/Contrat.md)                                             | xsd:date                                                          | F/NR            |                                                                                                                                                                                                                                                                           |
-| [début application](../Ontologie/Propriétés/début%20application.md)                       | Preuve                                                                                        | xsd:date                                                          | F/NR            |                                                                                                                                                                                                                                                                           |
-| [fin application](../Ontologie/Propriétés/fin%20application.md)                           | Preuve                                                                                        | xsd:date                                                          | F/NR            |                                                                                                                                                                                                                                                                           |
+| [début application](../Ontologie/Propriétés/début%20application.md)                       | [Preuve](../Ontologie/Classes/Preuve/Preuve.md)                                                                                        | xsd:date                                                          | F/NR            |                                                                                                                                                                                                                                                                           |
+| [fin application](../Ontologie/Propriétés/fin%20application.md)                           | [Preuve](../Ontologie/Classes/Preuve/Preuve.md)                                                                                        | xsd:date                                                          | F/NR            |                                                                                                                                                                                                                                                                           |
 
 ## Définition
 

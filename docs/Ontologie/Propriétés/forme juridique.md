@@ -1,3 +1,10 @@
+---
+description: ""
+tags:
+  - description des organisations
+
+---
+
 | **Nom**         | ***Domain***                                            | ***Range***     | **Cardinalité** |
 | --------------- | ------------------------------------------------------- | --------------- | --------------- |
 | forme juridique | [Organisation](../Classes/Organisation/Organisation.md) | Forme Juridique | F/NR            |

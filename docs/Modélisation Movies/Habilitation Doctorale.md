@@ -1,3 +1,12 @@
+---
+description: ""
+sidebar_position: 5
+tags:
+  - compétence doctorale
+  - description des organisations
+
+---
+
 ## Modélisation
 
 ```mermaid

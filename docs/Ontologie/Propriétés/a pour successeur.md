@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - généalogie
+---
+
 | **Nom**           | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                               |
 | ----------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | --------------------------------------------------------------- |
 | a pour successeur | [Organisation](../Classes/Organisation/Organisation.md) | [Organisation](../Classes/Organisation/Organisation.md) | F/R             | [`type`](type.md), [`preuve`](preuve.md), [`source`](source.md) |

@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - bornes chronologiques
+---
+
 | **Nom** | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
 | ------- | ------------ | ----------- | --------------- | -------------------------------------------- |
 | fin     |              | xsd:date    | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |

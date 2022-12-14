@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - composition des organisations
+---
+
 | **Nom**       | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                                                  |
 | ------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |
 | est membre de | [Organisation](../Classes/Organisation/Organisation.md) | [Organisation](../Classes/Organisation/Organisation.md) | F/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |
