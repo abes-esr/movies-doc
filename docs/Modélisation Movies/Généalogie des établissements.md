@@ -50,6 +50,28 @@ graph LR
 
 ## Exemple : Généalogie de l'Université Paris-Saclay (COMUE)
 
+<Claim emphase="true" property="a pour prédécesseur">
+    <Statement value="Université Paris 11">
+        <Qualifier property="preuve">Arrêté du XXX</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
+
+<Claim emphase="true" property="a pour a pour successeur">
+    <Statement value="Université Paris-Saclay (EPE)">
+        <Qualifier property="preuve">Arrêté du XXX</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
+
 ```mermaid
 graph LR
     PS("Université Paris-Saclay (COMUE)")

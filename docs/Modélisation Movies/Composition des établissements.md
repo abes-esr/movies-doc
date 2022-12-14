@@ -44,7 +44,88 @@ Les propriétés suivantes peuvent être utilisées pour rendre compte de la com
 
 Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](../Ontologie/Propriétés/début.md) et [`fin`](../Ontologie/Propriétés/fin.md). Chacune des assertions peut être complétée par une preuve et une source.
 
-## Exemple : Les membres constitutifs de l'EPE Paris-Saclay
+## Exemple : Les membres de l'EPE Paris-Saclay
+
+
+<Claim emphase="true" property="a pour membre">
+    <Statement value="Institut national des sciences et industries du vivant et de l'environnement">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre constitutif</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+     <Statement value="CentraleSupélec">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre constitutif</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+     <Statement value="École normale supérieure Paris-Saclay">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre constitutif</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+    <Statement value="Institut d'optique théorique et appliquée">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre associé</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+    <Statement value="Institut national des sciences et industries du vivant et de l'environnement">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre associé</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+    <Statement value="Université de Versailles-Saint-Quentin-en-Yvelines">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre associé</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+        <Statement value="Université d'Évry-Val d'Essonne">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre associé</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
+
+## Exemple : L'appartenance de l'Université de Versailles-Saint-Quentin-en-Yvelines à l'EPE Paris Saclay
+
+<Claim emphase="true" property="est membre de">
+    <Statement value="Université Paris-Saclay (EPE)">
+        <Qualifier property="début">7 novembre 2019</Qualifier>
+        <Qualifier emphase="true" property="type">Membre associé</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
 
 ```mermaid
 graph LR

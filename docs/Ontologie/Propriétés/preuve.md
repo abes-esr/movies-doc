@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - qualificatifs
+---
+
 | **Nom** | ***Domain*** | ***Range***                           | **Cardinalité** | **Qualificatifs**     |
 | ------- | ------------ | ------------------------------------- | --------------- | --------------------- |
 | preuve  |              | [Preuve](../Classes/Preuve/Preuve.md) | F/R             | [`source`](source.md) |

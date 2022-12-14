@@ -47,6 +47,28 @@ L'existence des établissements peut être décrit avec les propriétés suivant
 
 ## Exemple : L'existence de la Comue Paris-Saclay
 
+<Claim emphase="true" property="création">
+    <Statement value="7 novembre 2019">
+    <Qualifier property="preuve">Arrêté du XXXX</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
+
+<Claim emphase="true" property="Suppression">
+    <Statement value="7 novembre 2019">
+        <Qualifier property="preuve">Arrêté du XXXX</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">Paysage</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
+
 ```mermaid
 graph LR
     PS("Université Paris-Saclay (COMUE)")

@@ -80,6 +80,79 @@ Date de début d'application d'un texte réglementaire ou d'un contrat
 
 ## Exemple : Les contrats de documentation électronique de Paris 11
 
+> Université Paris-Saclay (EPE) 
+> 
+> <Claim property="est signataire de">
+>     <Statement value="Contrat Wiley 2022-03">
+>         <References>
+>             <Reference>
+>                 <ReferenceElement property="source">ADELE</ReferenceElement>
+>             </Reference>
+>         </References>
+>     </Statement>
+> </Claim>
+
+---
+
+> Contrat Wiley 2022-03
+> 
+> <Claim property="instance de">
+>     <Statement value="Contrat">
+>         <References>
+>             <Reference>
+>                 <ReferenceElement property="source">ADELE</ReferenceElement>
+>             </Reference>
+>         </References>
+>     </Statement>
+> </Claim>
+> 
+> <Claim property="début">
+>     <Statement value="2022">
+>         <References>
+>             <Reference>
+>                 <ReferenceElement property="source">ADELE</ReferenceElement>
+>             </Reference>
+>         </References>
+>     </Statement>
+> </Claim>
+> 
+> <Claim property="a pour signataire">
+>     <Statement value="Université Paris-Saclay (EPE) ">
+>         <Qualifier property="en tant que mandataire de">Institut Gustave Roussy</Qualifier>
+>         <Qualifier property="en tant que mandataire de">CentraleSupélec</Qualifier>
+>         <Qualifier property="en tant que mandataire de">Université d'Évry-Val d'Essonne</Qualifier>
+>         <Qualifier property="en tant que mandataire de">École normale supérieure Paris-Saclay</Qualifier>
+>         <Qualifier property="en tant que mandataire de">Institut d'Optique Graduate School</Qualifier>
+>         <Qualifier property="en tant que mandataire de">Université de Versailles-Saint-Quentin-en-Yvelines</Qualifier>
+>         <References>
+>             <Reference>
+>                 <ReferenceElement property="source">ADELE</ReferenceElement>
+>             </Reference>
+>         </References>
+>     </Statement>
+> </Claim>
+>
+> <Claim property="a pour bénéficiaire">
+>     <Statement value="Université Paris-Saclay (EPE)">
+>       <Qualifier property="début">2022</Qualifier>
+>         <References>
+>             <Reference>
+>                 <ReferenceElement property="source">ADELE</ReferenceElement>
+>             </Reference>
+>         </References>
+>     </Statement>
+>     <Statement value="Institut Gustave Roussy">
+>       <Qualifier property="début">2022</Qualifier>
+>         <References>
+>             <Reference>
+>                 <ReferenceElement property="source">ADELE</ReferenceElement>
+>             </Reference>
+>         </References>
+>     </Statement>
+>     <Statement value="...">
+>     </Statement>
+> </Claim>
+
 ## Cas d'usage
 
 ### Faire une synthèse des contrats de documentation électronique

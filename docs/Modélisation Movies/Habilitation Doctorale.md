@@ -44,6 +44,19 @@ graph LR
     HAB -.-> |source| SourceHAB[''STHE'']
 ```
 
+<Claim property="habilitation doctorale">
+    <Statement value="Habilitation doctorale">
+        <Qualifier property="début">1 septembre 2015</Qualifier>
+        <Qualifier property="fin">31 décembre 2019</Qualifier>
+        <Qualifier property="preuve">Arrêté du XXX</Qualifier>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">STHE</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>
+
 ## Cas d'usage
 
 

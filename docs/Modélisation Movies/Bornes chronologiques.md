@@ -4,65 +4,8 @@ sidebar_position: 2
 tags:
   - bornes chronologiques
 ---
-export const Claim = ({property, children}) => (
-    <div class="wb-container">
-    <div class="claim-container">
-        <a>{property}</a>
-        {children}        
-    </div>
-    </div>
-);
-
-export const Statement = ({value, children}) => (
-    
-    <div class="statement-container">
-        <div class="value">
-            {value}
-            {children}
-        </div>
-        
-            
-    </div>
-    
-);
-
-export const Reference = ({value, children}) => (
-    <div>
-        <div>
-            {value}
-        </div>
-        <span >
-            {children}
-        </span>
-    </div>
-);
-
-export const Qualificatif = ({property, children}) => (
-    <div class="qualifier-container">
-        <div>
-            <span class="property">{property} :</span><span class="qualifier-value"> {children}</span>
-        </div>
-    </div>
-);
 
 Les propriétés de la modélisation Movies peuvent être bornées dans le temps grâce aux propriétés [`début`](../Ontologie/Propriétés/début.md) et [`fin`](../Ontologie/Propriétés/fin.md).
-
-<Claim property="nnt">
-    <Statement value="123456789">
-        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
-        <Qualificatif property="fin">2012</Qualificatif>
-        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
-        <Qualificatif property="fin">2012</Qualificatif>
-        <Reference value="source">paysage</Reference>
-    </Statement>
-    <Statement value="123456789">
-        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
-        <Qualificatif property="fin">2012</Qualificatif>
-        <Qualificatif property="a pour mendataire">grand établissement</Qualificatif>
-        <Qualificatif property="fin">2012</Qualificatif>
-        <Reference value="source">paysage</Reference>
-    </Statement>
-</Claim>
 
 ## Modélisation
 
@@ -120,15 +63,18 @@ graph LR
 :::
 
 
-## Exemple : L'habilitation de l'Université Paris-Saclay (COMUE) à délivrer le doctorat
+## Exemple : Les bornes chronologique de l'habilitation de la COMUE Paris-Saclay à délivrer le doctorat
 
-```mermaid
-graph LR
-    SACL("Université Paris-Saclay (COMUE)")
-    HAB{{habilitation doctorale}}
-
-    SACL --- HAB --> H(Habilitation)
-    HAB-.-|début| 2015-09-01
-    HAB-.-|fin| 2019-12-31
-```
-
+<Claim property="habilitation doctorale">
+    <Statement value="Habilitation doctorale">
+        <div class="emphase">
+            <Qualifier property="début">1 septembre 2015</Qualifier>
+            <Qualifier property="fin">31 décembre 2019</Qualifier>
+        </div>
+        <References>
+            <Reference>
+                <ReferenceElement property="source">STHE</ReferenceElement>
+            </Reference>
+        </References>
+    </Statement>
+</Claim>

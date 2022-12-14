@@ -1,3 +1,9 @@
+---
+description: ""
+tags:
+  - source
+---
+
 | **Nom** | ***Domain*** | ***Range***                                                    | **Cardinalité** |
 | ------- | ------------ | -------------------------------------------------------------- | --------------- |
 | source  |              | [Data Provider](../Classes/Data%20Provider/Data%20Provider.md) | F/R             |
@@ -12,3 +18,4 @@ La propriété [`source`](source.md) permet de désigner le Data Porvider à l'o
 [`type`](type.md) ne s'utilise qu'en qualificatif d'une propriété.
 
 :::
+
