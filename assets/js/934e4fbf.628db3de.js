@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmovies_doc=self.webpackChunkmovies_doc||[]).push([[4636],{6109:e=>{e.exports=JSON.parse('{"label":"source","permalink":"/movies-doc/tags/source","allTagsPath":"/movies-doc/tags","count":1,"items":[{"id":"Ontologie/Propri\xe9t\xe9s/source","title":"source","description":"","permalink":"/movies-doc/Ontologie/Propri\xe9t\xe9s/source"}]}')}}]);
