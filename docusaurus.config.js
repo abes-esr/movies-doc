@@ -10,7 +10,7 @@ const config = {
   tagline: 'Modélisation de la vie des établissements de l\'ESR',
   url: 'https://abes-esr.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   // GitHub pages deployment config.
