@@ -9,7 +9,7 @@ const config = {
   title: 'Documentation Movies',
   tagline: 'Modélisation de la vie des établissements de l\'ESR',
   url: 'https://abes-esr.github.io',
-  baseUrl: '/',
+  baseUrl: '/movies-doc/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
