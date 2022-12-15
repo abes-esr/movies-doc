@@ -2,7 +2,6 @@
 description: ""
 tags:
   - description des organisations
-
 ---
 
 | **Nom**         | ***Domain***                                            | ***Range***     | **Cardinalité** |

@@ -4,7 +4,6 @@ sidebar_position: 5
 tags:
   - existence des organisations
   - description des organisations
-
   - bornes chronologiques
 ---
 
@@ -47,6 +46,8 @@ L'existence des établissements peut être décrit avec les propriétés suivant
 
 ## Exemple : L'existence de la Comue Paris-Saclay
 
+Université Paris-Saclay (COMUE)
+
 <Claim emphase="true" property="création">
     <Statement value="7 novembre 2019">
     <Qualifier property="preuve">Arrêté du XXXX</Qualifier>
@@ -58,7 +59,7 @@ L'existence des établissements peut être décrit avec les propriétés suivant
     </Statement>
 </Claim>
 
-<Claim emphase="true" property="Suppression">
+<Claim emphase="true" property="suppression">
     <Statement value="7 novembre 2019">
         <Qualifier property="preuve">Arrêté du XXXX</Qualifier>
         <References>
@@ -68,18 +69,3 @@ L'existence des établissements peut être décrit avec les propriétés suivant
         </References>
     </Statement>
 </Claim>
-
-```mermaid
-graph LR
-    PS("Université Paris-Saclay (COMUE)")
-    CREA{{création}}
-    SUPPR{{suppresion}}
-
-    PS --- CREA --> 2007-03-23
-    CREA -.-> |preuve| PreuveCrea(Arrêté du XXX)
-    CREA -.-> |source| SourceCrea(''paysage'')
-    
-    PS--- SUPPR --> 2019-12-31
-    SUPPR -.-> |preuve| PreuveSuppr(Arrêté du XXX)
-    SUPPR -.-> |source| SourceSuppr(''paysage'')
-```

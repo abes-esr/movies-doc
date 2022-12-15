@@ -24,7 +24,7 @@ Preuve
 
 | **Propriétés**                              | ***Domain*** | ***Range***                                    | Cardinalité |
 | ------------------------------------------- | ------------ | ---------------------------------------------- | ----------- |
-| [preuve](../Ontologie/Propriétés/preuve.md) |              | [Preuve](../Ontologie/Classes/Preuve/Preuve.md) | F/R         |
+| [preuve](../../Ontologie/Propriétés/preuve.md) |              | [Preuve](../../Ontologie/Classes/Preuve/Preuve.md) | F/R         |
 
 
 ## Exemple : 
@@ -41,7 +41,3 @@ Preuve
         </References>
     </Statement>
 </Claim>
-
-## Cas d’usage
-
-### Trouver les propriétés sans fondement juridique susceptible d’en avoir un

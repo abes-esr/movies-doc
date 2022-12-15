@@ -4,7 +4,6 @@ tags:
   - identifiants
   - compétence doctorale
   - description des organisations
-
 ---
 
 | **Nom**            | ***Domain***                                            | ***Range*** | **Cardinalité** |

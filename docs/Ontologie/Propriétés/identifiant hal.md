@@ -3,7 +3,6 @@ description: ""
 tags:
   - identifiants
   - description des organisations
-
 ---
 
 | **Nom**         | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                                                                    |

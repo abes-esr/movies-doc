@@ -4,7 +4,6 @@ sidebar_position: 5
 tags:
   - compétence doctorale
   - description des organisations
-
 ---
 
 ## Modélisation
@@ -32,17 +31,7 @@ graph LR
 
 ## Exemple : L'habilitation doctorale de Paris-Saclay (COMUE)
 
-```mermaid
-graph LR
-    PS("Université Paris-Saclay (COMUE)") 
-    HAB{{habilitation}}
-
-    PS --- HAB --> H(Habilitation)
-    HAB -.-> |début| 2015-09-01
-    HAB -.-> |fin| 2019-12-31
-    HAB -.-> |preuve| PreuveHAB(Arrêté du XXX)
-    HAB -.-> |source| SourceHAB[''STHE'']
-```
+Université Paris-Saclay (COMUE)
 
 <Claim property="habilitation doctorale">
     <Statement value="Habilitation doctorale">

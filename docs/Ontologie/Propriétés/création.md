@@ -4,7 +4,6 @@ tags:
   - existence des organisations
   - bornes chronologiques
   - description des organisations
-
 ---
 
 | **Nom**  | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |

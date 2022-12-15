@@ -4,6 +4,7 @@ sidebar_position: 4
 tags:
   - généalogie
   - description des organisations
+
 ---
 
 ## Modélisation
@@ -42,9 +43,9 @@ graph LR
 
 | **Propriétés**                                                            | ***Domain***                                       | ***Range***                                                       | ***Cardinalité*** | **Qualificatifs**                                                                                                                       |
 | ------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [a pour prédécesseur](../Ontologie/Propriétés/a%20pour%20prédécesseur.md) | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | [`type`](../Ontologie/Propriétés/type.md), [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
-| [a pour successeur](../Ontologie/Propriétés/a%20pour%20successeur.md)     | [Organisation](../Ontologie/Classes/Organisation/) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R               | [`type`](../Ontologie/Propriétés/type.md), [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
-| [type](../Ontologie/Propriétés/type.md)                                   |                                                    | Type                                                              | F/NR              | [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md)                                            |
+| [a pour prédécesseur](../../Ontologie/Propriétés/a%20pour%20prédécesseur.md) | [Organisation](../../Ontologie/Classes/Organisation/) | [Organisation](../../Ontologie/Classes/Organisation/Organisation.md) | F/R               | [`type`](../../Ontologie/Propriétés/type.md), [`preuve`](../../Ontologie/Propriétés/preuve.md), [`source`](../../Ontologie/Propriétés/source.md) |
+| [a pour successeur](../../Ontologie/Propriétés/a%20pour%20successeur.md)     | [Organisation](../../Ontologie/Classes/Organisation/) | [Organisation](../../Ontologie/Classes/Organisation/Organisation.md) | F/R               | [`type`](../../Ontologie/Propriétés/type.md), [`preuve`](../../Ontologie/Propriétés/preuve.md), [`source`](../../Ontologie/Propriétés/source.md) |
+| [type](../../Ontologie/Propriétés/type.md)                                   |                                                    | Type                                                              | F/NR              | [`preuve`](../../Ontologie/Propriétés/preuve.md), [`source`](../../Ontologie/Propriétés/source.md)                                            |
 
 
 ## Exemple : Généalogie de l'Université Paris-Saclay (COMUE)
@@ -70,25 +71,3 @@ graph LR
         </References>
     </Statement>
 </Claim>
-
-## Cas d’usage
-
-### Établir la généalogie de l'Université Paris-Saclay (COMUE)
-
-Cette requête permet de retrouver les ascendants (Université Paris-Saclay EPE) et les déscendants (Paris 11) de l'Université Paris-Saclay (COMUE).
-
-```sparql
-SELECT DISTINCT ?successeurLabel ?creation ?suppresion
-WHERE 
-{
-  wd:Q8447 (wdt:P52*/wdt:P53*) ?successeur.
-  
-  ?successeur wdt:P18 ?creation.
-  
-  OPTIONAL {
-   ?successeur wdt:P19 ?suppresion. 
-  }
-  
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
-```

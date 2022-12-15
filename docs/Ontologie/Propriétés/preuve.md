@@ -2,6 +2,7 @@
 description: ""
 tags:
   - qualificatifs
+  - preuves
 ---
 
 | **Nom** | ***Domain*** | ***Range***                           | **Cardinalité** | **Qualificatifs**     |
