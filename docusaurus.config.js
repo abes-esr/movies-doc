@@ -8,16 +8,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Documentation Movies',
   tagline: 'Modélisation de la vie des établissements de l\'ESR',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  url: 'https://abes-esr.github.io',
+  baseUrl: '/movies-doc/',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Abes', // Usually your GitHub org/user name.
-  projectName: 'Movies', // Usually your repo name.
+  organizationName: 'abes-esr', // Usually your GitHub org/user name.
+  projectName: 'movies-doc', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -44,8 +45,6 @@ const config = {
           routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
