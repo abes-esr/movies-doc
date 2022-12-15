@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Documentation Movies',
   tagline: 'Modélisation de la vie des établissements de l\'ESR',
-  //url: 'https://abes-esr.github.io/movies-doc/',
+  url: 'https://abes-esr.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
