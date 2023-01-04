@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Écoles/École de formation",
+  "id": "Ontologie/Classes/Organisation/Écoles/École de formation",
+  "title": "École de formation",
+  "description": "",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Écoles/École de formation.md",
+  "sourceDirName": "Ontologie/Classes/Organisation/Écoles",
+  "slug": "/Ontologie/Classes/Organisation/Écoles/École de formation",
+  "permalink": "/Ontologie/Classes/Organisation/Écoles/École de formation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Écoles/École de formation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "École de commerce",
+    "permalink": "/Ontologie/Classes/Organisation/Écoles/École de commerce"
+  },
+  "next": {
+    "title": "École doctorale",
+    "permalink": "/Ontologie/Classes/Organisation/Écoles/École doctorale"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Classes/PRES",
+  "id": "Modélisation Movies/Classes/PRES",
+  "title": "PRES",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Classes/PRES.md",
+  "sourceDirName": "Modélisation Movies/Classes",
+  "slug": "/Modélisation Movies/Classes/PRES",
+  "permalink": "/docs/Modélisation Movies/Classes/PRES",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Classes/PRES.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Organisation",
+    "permalink": "/docs/Modélisation Movies/Classes/Organisation"
+  },
+  "next": {
+    "title": "Université",
+    "permalink": "/docs/Modélisation Movies/Classes/Université"
+  }
+}

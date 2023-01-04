@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/code uai",
+  "id": "Modélisation Movies/Propriétés/code uai",
+  "title": "code uai",
+  "description": "| Nom  | Domain | Range | Cardinalité |",
+  "source": "@site/docs/Modélisation Movies/Propriétés/code uai.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/code uai",
+  "permalink": "/docs/Modélisation Movies/Propriétés/code uai",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/code uai.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "accréditation doctorale",
+    "permalink": "/docs/Modélisation Movies/Propriétés/accréditation doctorale"
+  },
+  "next": {
+    "title": "code établissement",
+    "permalink": "/docs/Modélisation Movies/Propriétés/code établissement"
+  }
+}

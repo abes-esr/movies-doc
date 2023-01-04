@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/a pour membre associé",
+  "id": "Modélisation Movies/Propriétés/a pour membre associé",
+  "title": "a pour membre associé",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/a pour membre associé.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/a pour membre associé",
+  "permalink": "/docs/Modélisation Movies/Propriétés/a pour membre associé",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/a pour membre associé.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "a pour bénéficiaire",
+    "permalink": "/docs/Modélisation Movies/Propriétés/a pour bénéficiaire"
+  },
+  "next": {
+    "title": "a pour membre constitutif",
+    "permalink": "/docs/Modélisation Movies/Propriétés/a pour membre constitutif"
+  }
+}

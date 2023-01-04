@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Contrat de documentation électronique/Cas usage",
+  "id": "Modélisation Movies/Contrat de documentation électronique/Cas usage",
+  "title": "Cas d'usage",
+  "description": "Faire une synthèse des contrats de documentation électronique",
+  "source": "@site/docs/Modélisation Movies/Contrat de documentation électronique/Cas usage.md",
+  "sourceDirName": "Modélisation Movies/Contrat de documentation électronique",
+  "slug": "/Modélisation Movies/Contrat de documentation électronique/Cas usage",
+  "permalink": "/Modélisation Movies/Contrat de documentation électronique/Cas usage",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Contrat de documentation électronique/Cas usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contrat de documentation électronique",
+    "permalink": "/Modélisation Movies/Contrat de documentation électronique/"
+  },
+  "next": {
+    "title": "Membre associé",
+    "permalink": "/Ontologie/Classes/Appartenance/Membre associé"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Grand établissement",
+  "id": "Ontologie/Classes/Organisation/Grand établissement",
+  "title": "Grand établissement",
+  "description": "",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Grand établissement.md",
+  "sourceDirName": "Ontologie/Classes/Organisation",
+  "slug": "/Ontologie/Classes/Organisation/Grand établissement",
+  "permalink": "/Ontologie/Classes/Organisation/Grand établissement",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Grand établissement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Consortium universitaire",
+    "permalink": "/Ontologie/Classes/Organisation/Consortium universitaire"
+  },
+  "next": {
+    "title": "Instituts",
+    "permalink": "/Ontologie/Classes/Organisation/Instituts/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "unversionedId": "Ontologie/Propriétés/identifiant paysage",
+  "id": "Ontologie/Propriétés/identifiant paysage",
+  "title": "identifiant paysage",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/identifiant paysage.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/identifiant paysage",
+  "permalink": "/Ontologie/Propriétés/identifiant paysage",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/identifiant paysage.md",
+  "tags": [
+    {
+      "label": "identifiants",
+      "permalink": "/tags/identifiants"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "description": "",
+    "tags": [
+      "identifiants",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "identifiant légifrance",
+    "permalink": "/Ontologie/Propriétés/identifiant légifrance"
+  },
+  "next": {
+    "title": "identifiant rnsr",
+    "permalink": "/Ontologie/Propriétés/identifiant rnsr"
+  }
+}

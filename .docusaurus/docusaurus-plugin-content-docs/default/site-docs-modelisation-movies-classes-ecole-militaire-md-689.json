@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Classes/École militaire",
+  "id": "Modélisation Movies/Classes/École militaire",
+  "title": "École militaire",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Classes/École militaire.md",
+  "sourceDirName": "Modélisation Movies/Classes",
+  "slug": "/Modélisation Movies/Classes/École militaire",
+  "permalink": "/docs/Modélisation Movies/Classes/École militaire",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Classes/École militaire.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "École d’ingénieurs",
+    "permalink": "/docs/Modélisation Movies/Classes/École d’ingénieurs"
+  },
+  "next": {
+    "title": "École normale",
+    "permalink": "/docs/Modélisation Movies/Classes/École normale"
+  }
+}

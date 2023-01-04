@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/relations",
+  "id": "Modélisation Movies/Propriétés/relations",
+  "title": "relations",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/relations.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/relations",
+  "permalink": "/docs/Modélisation Movies/Propriétés/relations",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/relations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "preuve",
+    "permalink": "/docs/Modélisation Movies/Propriétés/preuve"
+  },
+  "next": {
+    "title": "remplace",
+    "permalink": "/docs/Modélisation Movies/Propriétés/remplace"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Modélisation Movies/Généalogie des établissements",
+  "id": "Modélisation Movies/Généalogie des établissements",
+  "title": "Généalogie des établissements",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Généalogie des établissements.md",
+  "sourceDirName": "Modélisation Movies",
+  "slug": "/Modélisation Movies/Généalogie des établissements",
+  "permalink": "/Modélisation Movies/Généalogie des établissements",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Généalogie des établissements.md",
+  "tags": [
+    {
+      "label": "généalogie",
+      "permalink": "/tags/genealogie"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "description": "",
+    "sidebar_position": 4,
+    "tags": [
+      "généalogie",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cas d'usage",
+    "permalink": "/Modélisation Movies/Généalogie des établissements/Cas usage"
+  },
+  "next": {
+    "title": "Composition des établissements",
+    "permalink": "/Modélisation Movies/Composition des établissements"
+  }
+}

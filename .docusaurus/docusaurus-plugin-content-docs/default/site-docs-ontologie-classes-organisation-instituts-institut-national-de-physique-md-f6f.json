@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Instituts/Institut national de physique",
+  "id": "Ontologie/Classes/Organisation/Instituts/Institut national de physique",
+  "title": "Institut national de physique",
+  "description": "",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Instituts/Institut national de physique.md",
+  "sourceDirName": "Ontologie/Classes/Organisation/Instituts",
+  "slug": "/Ontologie/Classes/Organisation/Instituts/Institut national de physique",
+  "permalink": "/Ontologie/Classes/Organisation/Instituts/Institut national de physique",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Instituts/Institut national de physique.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Institut d’études politiques",
+    "permalink": "/Ontologie/Classes/Organisation/Instituts/Institut d’études politiques"
+  },
+  "next": {
+    "title": "COMUE",
+    "permalink": "/Ontologie/Classes/Organisation/Regroupements/COMUE"
+  }
+}

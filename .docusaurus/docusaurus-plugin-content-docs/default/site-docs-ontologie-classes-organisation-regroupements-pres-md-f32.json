@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Regroupements/PRES",
+  "id": "Ontologie/Classes/Organisation/Regroupements/PRES",
+  "title": "PRES",
+  "description": "",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Regroupements/PRES.md",
+  "sourceDirName": "Ontologie/Classes/Organisation/Regroupements",
+  "slug": "/Ontologie/Classes/Organisation/Regroupements/PRES",
+  "permalink": "/Ontologie/Classes/Organisation/Regroupements/PRES",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Regroupements/PRES.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EPE",
+    "permalink": "/Ontologie/Classes/Organisation/Regroupements/EPE"
+  },
+  "next": {
+    "title": "Université",
+    "permalink": "/Ontologie/Classes/Organisation/Université"
+  }
+}

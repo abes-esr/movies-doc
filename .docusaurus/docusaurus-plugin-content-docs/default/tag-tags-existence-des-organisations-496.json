@@ -1,0 +1,26 @@
+{
+  "label": "existence des organisations",
+  "permalink": "/tags/existence-des-organisations",
+  "allTagsPath": "/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "Ontologie/Propriétés/création",
+      "title": "création",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/création"
+    },
+    {
+      "id": "Modélisation Movies/Existence des établissements",
+      "title": "Existence des établissements",
+      "description": "",
+      "permalink": "/Modélisation Movies/Existence des établissements"
+    },
+    {
+      "id": "Ontologie/Propriétés/suppression",
+      "title": "suppression",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/suppression"
+    }
+  ]
+}

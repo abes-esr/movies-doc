@@ -10,7 +10,7 @@ tags:
 
 ## Définition
 
-Permet de définir l'appartenance d'une [Organisation](../Classes/Organisation/Organisation.md)à une autre.
+Permet de définir l'appartenance d'une [Organisation](../Classes/Organisation/Organisation.md) à une autre.
 
 
 :::tip

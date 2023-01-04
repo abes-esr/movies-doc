@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/est membre associé",
+  "id": "Modélisation Movies/Propriétés/est membre associé",
+  "title": "est membre associé",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/est membre associé.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/est membre associé",
+  "permalink": "/docs/Modélisation Movies/Propriétés/est membre associé",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/est membre associé.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "est bénéficiaire",
+    "permalink": "/docs/Modélisation Movies/Propriétés/est bénéficiaire"
+  },
+  "next": {
+    "title": "est membre constitutif de",
+    "permalink": "/docs/Modélisation Movies/Propriétés/est membre constitutif de"
+  }
+}

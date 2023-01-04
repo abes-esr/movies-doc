@@ -1,0 +1,32 @@
+{
+  "label": "doctorat",
+  "permalink": "/tags/doctorat",
+  "allTagsPath": "/tags",
+  "count": 4,
+  "items": [
+    {
+      "id": "Ontologie/Propriétés/code établissement",
+      "title": "code établissement",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/code établissement"
+    },
+    {
+      "id": "Ontologie/Classes/Habilitation",
+      "title": "Habilitation",
+      "description": "",
+      "permalink": "/Ontologie/Classes/Habilitation"
+    },
+    {
+      "id": "Ontologie/Propriétés/habilitation doctorale",
+      "title": "habilitation doctorale",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/habilitation doctorale"
+    },
+    {
+      "id": "Modélisation Movies/Habilitation Doctorale",
+      "title": "Habilitation Doctorale",
+      "description": "",
+      "permalink": "/Modélisation Movies/Habilitation Doctorale"
+    }
+  ]
+}

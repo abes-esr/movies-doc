@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Instituts/Institut de formation",
+  "id": "Ontologie/Classes/Organisation/Instituts/Institut de formation",
+  "title": "Institut de formation",
+  "description": "",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Instituts/Institut de formation.md",
+  "sourceDirName": "Ontologie/Classes/Organisation/Instituts",
+  "slug": "/Ontologie/Classes/Organisation/Instituts/Institut de formation",
+  "permalink": "/Ontologie/Classes/Organisation/Instituts/Institut de formation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Instituts/Institut de formation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Institut National Polytechnique",
+    "permalink": "/Ontologie/Classes/Organisation/Instituts/Institut National Polytechnique"
+  },
+  "next": {
+    "title": "Institut de recherche",
+    "permalink": "/Ontologie/Classes/Organisation/Instituts/Institut de recherche"
+  }
+}

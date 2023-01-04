@@ -1,0 +1,493 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "Movies",
+          "docs": [
+            {
+              "id": "Modélisation Movies/Bornes chronologiques",
+              "path": "/Modélisation Movies/Bornes chronologiques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Composition des établissements",
+              "path": "/Modélisation Movies/Composition des établissements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Contrat de documentation électronique/Cas usage",
+              "path": "/Modélisation Movies/Contrat de documentation électronique/Cas usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Contrat de documentation électronique/Contrat de documentation électronique",
+              "path": "/Modélisation Movies/Contrat de documentation électronique/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Description des établissements",
+              "path": "/Modélisation Movies/Description des établissements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Existence des établissements",
+              "path": "/Modélisation Movies/Existence des établissements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Généalogie des établissements",
+              "path": "/Modélisation Movies/Généalogie des établissements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Généalogie des établissements/Cas usage",
+              "path": "/Modélisation Movies/Généalogie des établissements/Cas usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Généalogie des établissements/Généalogie des établissements",
+              "path": "/Modélisation Movies/Généalogie des établissements/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Habilitation Doctorale",
+              "path": "/Modélisation Movies/Habilitation Doctorale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Habilitation Doctorale/Cas usage",
+              "path": "/Modélisation Movies/Habilitation Doctorale/Cas usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Habilitation Doctorale/Habilitation Doctorale",
+              "path": "/Modélisation Movies/Habilitation Doctorale/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Preuves/Cas usage",
+              "path": "/Modélisation Movies/Preuves/Cas usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Modélisation Movies/Preuves/Preuves",
+              "path": "/Modélisation Movies/Preuves/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Movies",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Appartenance/Membre associé",
+              "path": "/Ontologie/Classes/Appartenance/Membre associé",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Appartenance/Membre constitutif",
+              "path": "/Ontologie/Classes/Appartenance/Membre constitutif",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Data Provider/Data Provider",
+              "path": "/Ontologie/Classes/Data Provider/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Data Provider/Paysage",
+              "path": "/Ontologie/Classes/Data Provider/Paysage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Data Provider/SDEL",
+              "path": "/Ontologie/Classes/Data Provider/SDEL",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Data Provider/STHE",
+              "path": "/Ontologie/Classes/Data Provider/STHE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Habilitation",
+              "path": "/Ontologie/Classes/Habilitation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Campus",
+              "path": "/Ontologie/Classes/Organisation/Campus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Centre de calcul",
+              "path": "/Ontologie/Classes/Organisation/Centre de calcul",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Centre hospitalier universitaire",
+              "path": "/Ontologie/Classes/Organisation/Centre hospitalier universitaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Consortium universitaire",
+              "path": "/Ontologie/Classes/Organisation/Consortium universitaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École arts appliqués",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École arts appliqués",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École d’architecture",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École d’architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École d’arts",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École d’arts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École d’ingénieurs",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École d’ingénieurs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École de commerce",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École de commerce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École de formation",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École de formation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École doctorale",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École doctorale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École militaire",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École militaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École normale",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École normale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/École vétérinaire",
+              "path": "/Ontologie/Classes/Organisation/Écoles/École vétérinaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Écoles/Écoles",
+              "path": "/Ontologie/Classes/Organisation/Écoles/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Équipe de recherche",
+              "path": "/Ontologie/Classes/Organisation/Équipe de recherche",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Grand établissement",
+              "path": "/Ontologie/Classes/Organisation/Grand établissement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Instituts/Institut d’études politiques",
+              "path": "/Ontologie/Classes/Organisation/Instituts/Institut d’études politiques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Instituts/Institut de formation",
+              "path": "/Ontologie/Classes/Organisation/Instituts/Institut de formation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Instituts/Institut de recherche",
+              "path": "/Ontologie/Classes/Organisation/Instituts/Institut de recherche",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Instituts/Institut national de physique",
+              "path": "/Ontologie/Classes/Organisation/Instituts/Institut national de physique",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Instituts/Institut National Polytechnique",
+              "path": "/Ontologie/Classes/Organisation/Instituts/Institut National Polytechnique",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Instituts/Instituts",
+              "path": "/Ontologie/Classes/Organisation/Instituts/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Organisation",
+              "path": "/Ontologie/Classes/Organisation/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Regroupements/COMUE",
+              "path": "/Ontologie/Classes/Organisation/Regroupements/COMUE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Regroupements/EPE",
+              "path": "/Ontologie/Classes/Organisation/Regroupements/EPE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Regroupements/PRES",
+              "path": "/Ontologie/Classes/Organisation/Regroupements/PRES",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Organisation/Université",
+              "path": "/Ontologie/Classes/Organisation/Université",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Preuve/Arrêté",
+              "path": "/Ontologie/Classes/Preuve/Arrêté",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Preuve/Contrat",
+              "path": "/Ontologie/Classes/Preuve/Contrat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Preuve/Décret",
+              "path": "/Ontologie/Classes/Preuve/Décret",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Preuve/Loi",
+              "path": "/Ontologie/Classes/Preuve/Loi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Preuve/Ordonnace",
+              "path": "/Ontologie/Classes/Preuve/Ordonnace",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Classes/Preuve/Preuve",
+              "path": "/Ontologie/Classes/Preuve/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/a pour bénéficiaire",
+              "path": "/Ontologie/Propriétés/a pour bénéficiaire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/a pour prédécesseur",
+              "path": "/Ontologie/Propriétés/a pour prédécesseur",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/a pour signataire",
+              "path": "/Ontologie/Propriétés/a pour signataire",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/a pour successeur",
+              "path": "/Ontologie/Propriétés/a pour successeur",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/code établissement",
+              "path": "/Ontologie/Propriétés/code établissement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/code uai",
+              "path": "/Ontologie/Propriétés/code uai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/création",
+              "path": "/Ontologie/Propriétés/création",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/début",
+              "path": "/Ontologie/Propriétés/début",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/début application",
+              "path": "/Ontologie/Propriétés/début application",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/en tant que mandant de",
+              "path": "/Ontologie/Propriétés/en tant que mandant de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/en tant que mandataire de",
+              "path": "/Ontologie/Propriétés/en tant que mandataire de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/est bénéficiaire de",
+              "path": "/Ontologie/Propriétés/est bénéficiaire de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/est membre de",
+              "path": "/Ontologie/Propriétés/est membre de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/est signataire de",
+              "path": "/Ontologie/Propriétés/est signataire de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/fin",
+              "path": "/Ontologie/Propriétés/fin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/fin application",
+              "path": "/Ontologie/Propriétés/fin application",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/forme juridique",
+              "path": "/Ontologie/Propriétés/forme juridique",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/habilitation doctorale",
+              "path": "/Ontologie/Propriétés/habilitation doctorale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant contrat",
+              "path": "/Ontologie/Propriétés/identifiant contrat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant hal",
+              "path": "/Ontologie/Propriétés/identifiant hal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant idref",
+              "path": "/Ontologie/Propriétés/identifiant idref",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant légifrance",
+              "path": "/Ontologie/Propriétés/identifiant légifrance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant paysage",
+              "path": "/Ontologie/Propriétés/identifiant paysage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant rnsr",
+              "path": "/Ontologie/Propriétés/identifiant rnsr",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant scanr",
+              "path": "/Ontologie/Propriétés/identifiant scanr",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant siren",
+              "path": "/Ontologie/Propriétés/identifiant siren",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant siret",
+              "path": "/Ontologie/Propriétés/identifiant siret",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/identifiant wikidata",
+              "path": "/Ontologie/Propriétés/identifiant wikidata",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/instance de",
+              "path": "/Ontologie/Propriétés/instance de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/nom",
+              "path": "/Ontologie/Propriétés/nom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/preuve",
+              "path": "/Ontologie/Propriétés/preuve",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/sigle",
+              "path": "/Ontologie/Propriétés/sigle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/source",
+              "path": "/Ontologie/Propriétés/source",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/sous classe de",
+              "path": "/Ontologie/Propriétés/sous classe de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/suppression",
+              "path": "/Ontologie/Propriétés/suppression",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/type",
+              "path": "/Ontologie/Propriétés/type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ontologie/Propriétés/uri",
+              "path": "/Ontologie/Propriétés/uri",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Movies"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Généalogie des établissements/Cas usage",
+  "id": "Modélisation Movies/Généalogie des établissements/Cas usage",
+  "title": "Cas d'usage",
+  "description": "Établir la généalogie de l'Université Paris-Saclay (COMUE)",
+  "source": "@site/docs/Modélisation Movies/Généalogie des établissements/Cas usage.md",
+  "sourceDirName": "Modélisation Movies/Généalogie des établissements",
+  "slug": "/Modélisation Movies/Généalogie des établissements/Cas usage",
+  "permalink": "/Modélisation Movies/Généalogie des établissements/Cas usage",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Généalogie des établissements/Cas usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Généalogie des établissements",
+    "permalink": "/Modélisation Movies/Généalogie des établissements/"
+  },
+  "next": {
+    "title": "Généalogie des établissements",
+    "permalink": "/Modélisation Movies/Généalogie des établissements"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies",
+  "id": "Modélisation Movies",
+  "title": "Modélisation Movies",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies.md",
+  "sourceDirName": ".",
+  "slug": "/Modélisation Movies",
+  "permalink": "/docs/Modélisation Movies",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preuves",
+    "permalink": "/docs/Modélisation Movies/Preuves"
+  },
+  "next": {
+    "title": "Membre associé",
+    "permalink": "/docs/Ontologie/Classes/Appartenances/Membre associé"
+  }
+}

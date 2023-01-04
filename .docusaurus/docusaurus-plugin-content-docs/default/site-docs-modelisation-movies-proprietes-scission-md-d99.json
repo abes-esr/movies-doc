@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/scission",
+  "id": "Modélisation Movies/Propriétés/scission",
+  "title": "scission",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/scission.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/scission",
+  "permalink": "/docs/Modélisation Movies/Propriétés/scission",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/scission.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "remplace",
+    "permalink": "/docs/Modélisation Movies/Propriétés/remplace"
+  },
+  "next": {
+    "title": "sigle",
+    "permalink": "/docs/Modélisation Movies/Propriétés/sigle"
+  }
+}

@@ -4,7 +4,7 @@ import React from 'react';
 function Claim({ emphase=false, property, children }) {
     return (<div class="wb-container">
         <div class="claim-container">
-            <a class={` ${emphase ? "emphase" : ""}`} href={"/Ontologie/Propriétés/" + property}>{property}</a>
+            <a class={` ${emphase ? "emphase" : ""}`} href={"/movies-doc/Ontologie/Propriétés/" + property}>{property}</a>
         </div>
         <div class="statements-container">
             {children}
@@ -40,7 +40,7 @@ function Reference({ children }) {
 function ReferenceElement({ emphase=false, property, children }) {
     return (<div>
         <div class={`property ${emphase ? "emphase" : ""}`}>
-            <a href={"/Ontologie/Propriétés/" + property}>{property}</a>
+            <a href={"/movies-doc/Ontologie/Propriétés/" + property}>{property}</a>
         </div>
         <span >
             {children}
@@ -52,7 +52,7 @@ function ReferenceElement({ emphase=false, property, children }) {
 function Qualifier({ emphase=false, property, children }) {
     return (<div class={`qualifier-container ${emphase ? "emphase" : ""}`}>
         <div>
-            <span class="property"><a href={"/Ontologie/Propriétés/" + property}>{property}</a></span><span class="qualifier-value"> {children}</span>
+            <span class="property"><a href={"/movies-doc/Ontologie/Propriétés/" + property}>{property}</a></span><span class="qualifier-value"> {children}</span>
         </div>
     </div>)
 };

@@ -1,0 +1,86 @@
+{
+  "label": "identifiants",
+  "permalink": "/tags/identifiants",
+  "allTagsPath": "/tags",
+  "count": 13,
+  "items": [
+    {
+      "id": "Ontologie/Propriétés/code établissement",
+      "title": "code établissement",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/code établissement"
+    },
+    {
+      "id": "Ontologie/Propriétés/code uai",
+      "title": "code uai",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/code uai"
+    },
+    {
+      "id": "Modélisation Movies/Description des établissements",
+      "title": "Description des établissements",
+      "description": "",
+      "permalink": "/Modélisation Movies/Description des établissements"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant contrat",
+      "title": "identifiant contrat",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant contrat"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant hal",
+      "title": "identifiant hal",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant hal"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant idref",
+      "title": "identifiant idref",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant idref"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant légifrance",
+      "title": "identifiant légifrance",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant légifrance"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant paysage",
+      "title": "identifiant paysage",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant paysage"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant rnsr",
+      "title": "identifiant rnsr",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant rnsr"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant scanr",
+      "title": "identifiant scanr",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant scanr"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant siren",
+      "title": "identifiant siren",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant siren"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant siret",
+      "title": "identifiant siret",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant siret"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant wikidata",
+      "title": "identifiant wikidata",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant wikidata"
+    }
+  ]
+}

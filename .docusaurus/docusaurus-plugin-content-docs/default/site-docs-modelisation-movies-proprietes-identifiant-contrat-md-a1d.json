@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/identifiant contrat",
+  "id": "Modélisation Movies/Propriétés/identifiant contrat",
+  "title": "identifiant contrat",
+  "description": "| Nom             | Domain | Range | Cardinalité |",
+  "source": "@site/docs/Modélisation Movies/Propriétés/identifiant contrat.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/identifiant contrat",
+  "permalink": "/docs/Modélisation Movies/Propriétés/identifiant contrat",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/identifiant contrat.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "habilitation doctorale",
+    "permalink": "/docs/Modélisation Movies/Propriétés/habilitation doctorale"
+  },
+  "next": {
+    "title": "identifiant hal",
+    "permalink": "/docs/Modélisation Movies/Propriétés/identifiant hal"
+  }
+}

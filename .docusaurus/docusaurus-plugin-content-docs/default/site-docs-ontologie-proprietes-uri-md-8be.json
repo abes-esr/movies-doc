@@ -1,0 +1,20 @@
+{
+  "unversionedId": "Ontologie/Propriétés/uri",
+  "id": "Ontologie/Propriétés/uri",
+  "title": "uri",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/uri.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/uri",
+  "permalink": "/Ontologie/Propriétés/uri",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/uri.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "type",
+    "permalink": "/Ontologie/Propriétés/type"
+  }
+}

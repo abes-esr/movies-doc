@@ -1,0 +1,68 @@
+{
+  "label": "contrats",
+  "permalink": "/tags/contrats",
+  "allTagsPath": "/tags",
+  "count": 10,
+  "items": [
+    {
+      "id": "Ontologie/Propriétés/a pour bénéficiaire",
+      "title": "a pour bénéficiaire",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/a pour bénéficiaire"
+    },
+    {
+      "id": "Ontologie/Classes/Preuve/Contrat",
+      "title": "Contrat",
+      "description": "",
+      "permalink": "/Ontologie/Classes/Preuve/Contrat"
+    },
+    {
+      "id": "Modélisation Movies/Contrat de documentation électronique/Contrat de documentation électronique",
+      "title": "Contrat de documentation électronique",
+      "description": "",
+      "permalink": "/Modélisation Movies/Contrat de documentation électronique/"
+    },
+    {
+      "id": "Ontologie/Propriétés/début application",
+      "title": "début application",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/début application"
+    },
+    {
+      "id": "Ontologie/Propriétés/en tant que mandant de",
+      "title": "en tant que mandant de",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/en tant que mandant de"
+    },
+    {
+      "id": "Ontologie/Propriétés/en tant que mandataire de",
+      "title": "en tant que mandataire de",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/en tant que mandataire de"
+    },
+    {
+      "id": "Ontologie/Propriétés/est bénéficiaire de",
+      "title": "est bénéficiaire de",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/est bénéficiaire de"
+    },
+    {
+      "id": "Ontologie/Propriétés/est signataire de",
+      "title": "est signataire de",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/est signataire de"
+    },
+    {
+      "id": "Ontologie/Propriétés/fin application",
+      "title": "fin application",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/fin application"
+    },
+    {
+      "id": "Ontologie/Propriétés/identifiant contrat",
+      "title": "identifiant contrat",
+      "description": "",
+      "permalink": "/Ontologie/Propriétés/identifiant contrat"
+    }
+  ]
+}

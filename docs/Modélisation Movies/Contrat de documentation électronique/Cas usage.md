@@ -53,8 +53,8 @@ WHERE
    ?item wdt:P12 ?début 
   }
   
-   ?item wdt:P13 ?fin
-   FILTER(?fin < NOW()) 
+  ?item wdt:P13 ?fin
+  FILTER(?fin < NOW()) 
 }
 ```
 

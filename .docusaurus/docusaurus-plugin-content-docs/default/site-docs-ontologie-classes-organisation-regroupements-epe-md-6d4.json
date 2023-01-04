@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Regroupements/EPE",
+  "id": "Ontologie/Classes/Organisation/Regroupements/EPE",
+  "title": "EPE",
+  "description": "Définition",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Regroupements/EPE.md",
+  "sourceDirName": "Ontologie/Classes/Organisation/Regroupements",
+  "slug": "/Ontologie/Classes/Organisation/Regroupements/EPE",
+  "permalink": "/Ontologie/Classes/Organisation/Regroupements/EPE",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Regroupements/EPE.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "COMUE",
+    "permalink": "/Ontologie/Classes/Organisation/Regroupements/COMUE"
+  },
+  "next": {
+    "title": "PRES",
+    "permalink": "/Ontologie/Classes/Organisation/Regroupements/PRES"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "unversionedId": "Ontologie/Propriétés/code uai",
+  "id": "Ontologie/Propriétés/code uai",
+  "title": "code uai",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/code uai.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/code uai",
+  "permalink": "/Ontologie/Propriétés/code uai",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/code uai.md",
+  "tags": [
+    {
+      "label": "identifiants",
+      "permalink": "/tags/identifiants"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "description": "",
+    "tags": [
+      "identifiants",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "a pour successeur",
+    "permalink": "/Ontologie/Propriétés/a pour successeur"
+  },
+  "next": {
+    "title": "code établissement",
+    "permalink": "/Ontologie/Propriétés/code établissement"
+  }
+}

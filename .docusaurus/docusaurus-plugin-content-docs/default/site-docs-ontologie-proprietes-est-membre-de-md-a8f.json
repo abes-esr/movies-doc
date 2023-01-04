@@ -1,0 +1,34 @@
+{
+  "unversionedId": "Ontologie/Propriétés/est membre de",
+  "id": "Ontologie/Propriétés/est membre de",
+  "title": "est membre de",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/est membre de.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/est membre de",
+  "permalink": "/Ontologie/Propriétés/est membre de",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/est membre de.md",
+  "tags": [
+    {
+      "label": "composition des organisations",
+      "permalink": "/tags/composition-des-organisations"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "description": "",
+    "tags": [
+      "composition des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "est bénéficiaire de",
+    "permalink": "/Ontologie/Propriétés/est bénéficiaire de"
+  },
+  "next": {
+    "title": "est signataire de",
+    "permalink": "/Ontologie/Propriétés/est signataire de"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Modélisation Movies/Composition des établissements",
+  "id": "Modélisation Movies/Composition des établissements",
+  "title": "Composition des établissements",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Composition des établissements.md",
+  "sourceDirName": "Modélisation Movies",
+  "slug": "/Modélisation Movies/Composition des établissements",
+  "permalink": "/Modélisation Movies/Composition des établissements",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Composition des établissements.md",
+  "tags": [
+    {
+      "label": "composition des organisations",
+      "permalink": "/tags/composition-des-organisations"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "description": "",
+    "sidebar_position": 5,
+    "tags": [
+      "composition des organisations",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Généalogie des établissements",
+    "permalink": "/Modélisation Movies/Généalogie des établissements"
+  },
+  "next": {
+    "title": "Existence des établissements",
+    "permalink": "/Modélisation Movies/Existence des établissements"
+  }
+}

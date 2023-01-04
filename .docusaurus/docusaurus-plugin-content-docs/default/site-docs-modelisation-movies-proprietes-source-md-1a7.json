@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/source",
+  "id": "Modélisation Movies/Propriétés/source",
+  "title": "source",
+  "description": "| Nom | Range |",
+  "source": "@site/docs/Modélisation Movies/Propriétés/source.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/source",
+  "permalink": "/docs/Modélisation Movies/Propriétés/source",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/source.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "sigle",
+    "permalink": "/docs/Modélisation Movies/Propriétés/sigle"
+  },
+  "next": {
+    "title": "sous classe de",
+    "permalink": "/docs/Modélisation Movies/Propriétés/sous classe de"
+  }
+}

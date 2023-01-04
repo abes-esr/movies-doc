@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Modélisation Movies/Habilitation Doctorale",
+  "id": "Modélisation Movies/Habilitation Doctorale",
+  "title": "Habilitation Doctorale",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Habilitation Doctorale.md",
+  "sourceDirName": "Modélisation Movies",
+  "slug": "/Modélisation Movies/Habilitation Doctorale",
+  "permalink": "/Modélisation Movies/Habilitation Doctorale",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Habilitation Doctorale.md",
+  "tags": [
+    {
+      "label": "compétence doctorale",
+      "permalink": "/tags/competence-doctorale"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "description": "",
+    "sidebar_position": 5,
+    "tags": [
+      "compétence doctorale",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cas d'usage",
+    "permalink": "/Modélisation Movies/Habilitation Doctorale/Cas usage"
+  },
+  "next": {
+    "title": "Contrat de documentation électronique",
+    "permalink": "/Modélisation Movies/Contrat de documentation électronique/"
+  }
+}

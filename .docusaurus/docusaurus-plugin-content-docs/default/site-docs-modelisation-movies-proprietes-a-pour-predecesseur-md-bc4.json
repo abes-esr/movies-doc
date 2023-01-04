@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/a pour prédécesseur",
+  "id": "Modélisation Movies/Propriétés/a pour prédécesseur",
+  "title": "a pour prédécesseur",
+  "description": "| Nom                                          | Domain | Range  | Cardinalité |",
+  "source": "@site/docs/Modélisation Movies/Propriétés/a pour prédécesseur.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/a pour prédécesseur",
+  "permalink": "/docs/Modélisation Movies/Propriétés/a pour prédécesseur",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/a pour prédécesseur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "a pour membre constitutif",
+    "permalink": "/docs/Modélisation Movies/Propriétés/a pour membre constitutif"
+  },
+  "next": {
+    "title": "a pour signataire",
+    "permalink": "/docs/Modélisation Movies/Propriétés/a pour signataire"
+  }
+}

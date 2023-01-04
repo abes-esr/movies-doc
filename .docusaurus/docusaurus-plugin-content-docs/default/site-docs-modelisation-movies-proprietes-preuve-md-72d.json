@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/preuve",
+  "id": "Modélisation Movies/Propriétés/preuve",
+  "title": "preuve",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/preuve.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/preuve",
+  "permalink": "/docs/Modélisation Movies/Propriétés/preuve",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/preuve.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "nom",
+    "permalink": "/docs/Modélisation Movies/Propriétés/nom"
+  },
+  "next": {
+    "title": "relations",
+    "permalink": "/docs/Modélisation Movies/Propriétés/relations"
+  }
+}

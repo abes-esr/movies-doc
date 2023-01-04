@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Organisation/Écoles/École doctorale",
+  "id": "Ontologie/Classes/Organisation/Écoles/École doctorale",
+  "title": "École doctorale",
+  "description": "",
+  "source": "@site/docs/Ontologie/Classes/Organisation/Écoles/École doctorale.md",
+  "sourceDirName": "Ontologie/Classes/Organisation/Écoles",
+  "slug": "/Ontologie/Classes/Organisation/Écoles/École doctorale",
+  "permalink": "/Ontologie/Classes/Organisation/Écoles/École doctorale",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Organisation/Écoles/École doctorale.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "École de formation",
+    "permalink": "/Ontologie/Classes/Organisation/Écoles/École de formation"
+  },
+  "next": {
+    "title": "École d’architecture",
+    "permalink": "/Ontologie/Classes/Organisation/Écoles/École d’architecture"
+  }
+}

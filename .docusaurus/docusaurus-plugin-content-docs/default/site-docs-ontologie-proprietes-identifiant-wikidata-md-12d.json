@@ -1,0 +1,39 @@
+{
+  "unversionedId": "Ontologie/Propriétés/identifiant wikidata",
+  "id": "Ontologie/Propriétés/identifiant wikidata",
+  "title": "identifiant wikidata",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/identifiant wikidata.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/identifiant wikidata",
+  "permalink": "/Ontologie/Propriétés/identifiant wikidata",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/identifiant wikidata.md",
+  "tags": [
+    {
+      "label": "identifiants",
+      "permalink": "/tags/identifiants"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "description": "",
+    "tags": [
+      "identifiants",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "identifiant siret",
+    "permalink": "/Ontologie/Propriétés/identifiant siret"
+  },
+  "next": {
+    "title": "instance de",
+    "permalink": "/Ontologie/Propriétés/instance de"
+  }
+}

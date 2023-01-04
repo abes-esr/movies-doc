@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/est établissement support de",
+  "id": "Modélisation Movies/Propriétés/est établissement support de",
+  "title": "est établissement support de",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/est établissement support de.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/est établissement support de",
+  "permalink": "/docs/Modélisation Movies/Propriétés/est établissement support de",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/est établissement support de.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "est établissement coaccrédité de",
+    "permalink": "/docs/Modélisation Movies/Propriétés/est établissement coaccrédité de"
+  },
+  "next": {
+    "title": "fin application",
+    "permalink": "/docs/Modélisation Movies/Propriétés/fin application"
+  }
+}

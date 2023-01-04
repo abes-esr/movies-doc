@@ -1,0 +1,39 @@
+{
+  "unversionedId": "Ontologie/Propriétés/identifiant scanr",
+  "id": "Ontologie/Propriétés/identifiant scanr",
+  "title": "identifiant scanr",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/identifiant scanr.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/identifiant scanr",
+  "permalink": "/Ontologie/Propriétés/identifiant scanr",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/identifiant scanr.md",
+  "tags": [
+    {
+      "label": "identifiants",
+      "permalink": "/tags/identifiants"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "description": "",
+    "tags": [
+      "identifiants",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "identifiant rnsr",
+    "permalink": "/Ontologie/Propriétés/identifiant rnsr"
+  },
+  "next": {
+    "title": "identifiant siren",
+    "permalink": "/Ontologie/Propriétés/identifiant siren"
+  }
+}

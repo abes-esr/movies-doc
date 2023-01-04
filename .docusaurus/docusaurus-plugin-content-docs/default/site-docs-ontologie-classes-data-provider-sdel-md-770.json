@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Ontologie/Classes/Data Provider/SDEL",
+  "id": "Ontologie/Classes/Data Provider/SDEL",
+  "title": "SDEL",
+  "description": "Definition",
+  "source": "@site/docs/Ontologie/Classes/Data Provider/SDEL.md",
+  "sourceDirName": "Ontologie/Classes/Data Provider",
+  "slug": "/Ontologie/Classes/Data Provider/SDEL",
+  "permalink": "/Ontologie/Classes/Data Provider/SDEL",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Classes/Data Provider/SDEL.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Paysage",
+    "permalink": "/Ontologie/Classes/Data Provider/Paysage"
+  },
+  "next": {
+    "title": "STHE",
+    "permalink": "/Ontologie/Classes/Data Provider/STHE"
+  }
+}

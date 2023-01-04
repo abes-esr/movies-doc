@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Modélisation Movies/Propriétés/siren",
+  "id": "Modélisation Movies/Propriétés/siren",
+  "title": "siren",
+  "description": "",
+  "source": "@site/docs/Modélisation Movies/Propriétés/siren.md",
+  "sourceDirName": "Modélisation Movies/Propriétés",
+  "slug": "/Modélisation Movies/Propriétés/siren",
+  "permalink": "/docs/Modélisation Movies/Propriétés/siren",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Modélisation Movies/Propriétés/siren.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "sigle",
+    "permalink": "/docs/Modélisation Movies/Propriétés/sigle"
+  },
+  "next": {
+    "title": "siret",
+    "permalink": "/docs/Modélisation Movies/Propriétés/siret"
+  }
+}

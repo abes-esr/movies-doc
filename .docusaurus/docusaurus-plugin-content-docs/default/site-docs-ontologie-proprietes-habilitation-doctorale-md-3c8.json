@@ -1,0 +1,38 @@
+{
+  "unversionedId": "Ontologie/Propriétés/habilitation doctorale",
+  "id": "Ontologie/Propriétés/habilitation doctorale",
+  "title": "habilitation doctorale",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/habilitation doctorale.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/habilitation doctorale",
+  "permalink": "/Ontologie/Propriétés/habilitation doctorale",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/habilitation doctorale.md",
+  "tags": [
+    {
+      "label": "compétence doctorale",
+      "permalink": "/tags/competence-doctorale"
+    },
+    {
+      "label": "description des organisations",
+      "permalink": "/tags/description-des-organisations"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "tags": [
+      "compétence doctorale",
+      "description des organisations"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "forme juridique",
+    "permalink": "/Ontologie/Propriétés/forme juridique"
+  },
+  "next": {
+    "title": "identifiant contrat",
+    "permalink": "/Ontologie/Propriétés/identifiant contrat"
+  }
+}

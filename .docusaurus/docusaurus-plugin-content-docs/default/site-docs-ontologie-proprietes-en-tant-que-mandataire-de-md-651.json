@@ -1,0 +1,39 @@
+{
+  "unversionedId": "Ontologie/Propriétés/en tant que mandataire de",
+  "id": "Ontologie/Propriétés/en tant que mandataire de",
+  "title": "en tant que mandataire de",
+  "description": "",
+  "source": "@site/docs/Ontologie/Propriétés/en tant que mandataire de.md",
+  "sourceDirName": "Ontologie/Propriétés",
+  "slug": "/Ontologie/Propriétés/en tant que mandataire de",
+  "permalink": "/Ontologie/Propriétés/en tant que mandataire de",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ontologie/Propriétés/en tant que mandataire de.md",
+  "tags": [
+    {
+      "label": "contrats",
+      "permalink": "/tags/contrats"
+    },
+    {
+      "label": "qualificatifs",
+      "permalink": "/tags/qualificatifs"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "description": "",
+    "tags": [
+      "contrats",
+      "qualificatifs"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "en tant que mandant de",
+    "permalink": "/Ontologie/Propriétés/en tant que mandant de"
+  },
+  "next": {
+    "title": "est bénéficiaire de",
+    "permalink": "/Ontologie/Propriétés/est bénéficiaire de"
+  }
+}
