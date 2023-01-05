@@ -4,7 +4,14 @@ tags:
   - identifiants
   - compétence doctorale
   - description des organisations
+wb:
+  - Nom: "code établissement"
+  - Domain: "Organisation"
+  - Range: "xsd:string"
+  - Cardinalité: "F/NR"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**            | ***Domain***                                            | ***Range*** | **Cardinalité** |
 | ------------------ | ------------------------------------------------------- | ----------- | --------------- |

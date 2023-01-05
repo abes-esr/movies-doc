@@ -3,7 +3,17 @@ description: ""
 tags:
   - identifiants
   - description des organisations
+wb: 
+  - Nom: "identifiant idref"
+  - Domain: "Organisation"
+  - Range: "xsd:string"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**           | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
 | ----------------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |

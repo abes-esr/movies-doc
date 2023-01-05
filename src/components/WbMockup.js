@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Claim({ emphase=false, property, children }) {
     return (<div class="wb-container">
         <div class="claim-container">

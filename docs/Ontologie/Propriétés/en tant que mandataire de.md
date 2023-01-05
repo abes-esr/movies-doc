@@ -3,7 +3,17 @@ description: ""
 tags:
   - contrats
   - qualificatifs
+wb:
+  - Nom: "en tant que mandataire"
+  - Domain: "est signataire de"
+  - Range: "Organisation"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**                | ***Domain***                                 | ***Range***                                             | **Cardinalité** | **Qualificatifs**                            |
 | ---------------------- | -------------------------------------------- | ------------------------------------------------------- | --------------- | -------------------------------------------- |

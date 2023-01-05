@@ -3,7 +3,18 @@ description: ""
 tags:
   - identifiants
   - description des organisations
+wb:
+  - Nom: "identifiant siren"
+  - Domain: "Organisation"
+  - Range: "xsd:string"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
+
 
 | **Nom**           | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
 | ----------------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |

@@ -3,7 +3,17 @@ description: ""
 tags:
   - qualificatifs
   - preuves
+wb:
+  - Nom: "preuve"
+  - Domain: null
+  - Range: "Preuve"
+  - Cardinalité: "F/R"
+  - Qualificatifs:
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
+
 
 | **Nom** | ***Domain*** | ***Range***                           | **Cardinalité** | **Qualificatifs**     |
 | ------- | ------------ | ------------------------------------- | --------------- | --------------------- |

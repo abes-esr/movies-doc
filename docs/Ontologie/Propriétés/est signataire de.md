@@ -2,7 +2,17 @@
 description: ""
 tags:
   - contrats
+wb:
+  - Nom: "est signataire de"
+  - Domain: "Organisation"
+  - Range: "Contrat"
+  - Cardinalité: "O/R"
+  - Qualificatifs:
+    - preuve
+    - source
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**           | ***Domain***                                            | ***Range***                             | **Cardinalité** | **Qualificatifs**                            |
 | ----------------- | ------------------------------------------------------- | --------------------------------------- | --------------- | -------------------------------------------- |

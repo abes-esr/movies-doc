@@ -3,7 +3,19 @@ description: ""
 tags:
   - identifiants
   - description des organisations
+wb:
+  - Nom: "identifiant rnsr"
+  - Domain: "Organisation"
+  - Range: "xsd:string"
+  - Cardinalité: "F/NR?"
+  - Qualificatifs:
+    - "début"
+    - "fin"
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**          | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                                                                    |
 | ---------------- | ------------------------------------------------------- | ----------- | --------------- | ------------------------------------------------------------------------------------ |

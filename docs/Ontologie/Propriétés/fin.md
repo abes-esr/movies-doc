@@ -2,7 +2,17 @@
 description: ""
 tags:
   - bornes chronologiques
+wb:
+  - Nom: "fin"
+  - Domain: null
+  - Range: "xsd:date"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom** | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
 | ------- | ------------ | ----------- | --------------- | -------------------------------------------- |

@@ -3,7 +3,17 @@ description: ""
 tags:
   - contrats
   - bornes chronologiques
+wb:
+  - Nom: "début application"
+  - Domain: "Preuve"
+  - Range: "xsd:date"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**           | ***Domain***                          | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
 | ----------------- | ------------------------------------- | ----------- | --------------- | -------------------------------------------- |

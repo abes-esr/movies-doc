@@ -2,7 +2,15 @@
 description: ""
 tags:
   - source
+wb:
+  - Nom: "source"
+  - Domain: null
+  - Range: "Data Provider"
+  - Cardinalité: "F/R"
+  - Qualificatifs: null
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom** | ***Domain*** | ***Range***                                                    | **Cardinalité** |
 | ------- | ------------ | -------------------------------------------------------------- | --------------- |

@@ -4,7 +4,17 @@ tags:
   - existence des organisations
   - bornes chronologiques
   - description des organisations
+wb:
+  - Nom: "création"
+  - Domain: "Organisation"
+  - Range: "xsd:date"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**  | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
 | -------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |

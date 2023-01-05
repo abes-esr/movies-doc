@@ -2,7 +2,18 @@
 description: ""
 tags:
   - généalogie
+wb:
+  - Nom: "a pour prédécesseur"
+  - Domain: "Organisation"
+  - Range: "Organisation"
+  - Cardinalité: "F/R"
+  - Qualificatifs:
+    - "type"
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**             | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                               |
 | ------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | --------------------------------------------------------------- |

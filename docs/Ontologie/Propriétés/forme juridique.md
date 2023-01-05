@@ -2,7 +2,15 @@
 description: ""
 tags:
   - description des organisations
+wb:
+  - Nom: "forme juridique"
+  - Domain: "Organisation"
+  - Range: "Forme Juridique"
+  - Cardinalité: F/NR
+  - Qualificatifs: null
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**         | ***Domain***                                            | ***Range***     | **Cardinalité** |
 | --------------- | ------------------------------------------------------- | --------------- | --------------- |

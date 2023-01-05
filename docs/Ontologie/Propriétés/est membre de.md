@@ -2,7 +2,19 @@
 description: ""
 tags:
   - composition des organisations
+wb:
+  - Nom: "est membre de"
+  - Domain: "Organisation"
+  - Range: "Organisation"
+  - Cardinalité: "F/R"
+  - Qualificatifs:
+    - "début"
+    - "fin"
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 | **Nom**       | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                                                  |
 | ------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |

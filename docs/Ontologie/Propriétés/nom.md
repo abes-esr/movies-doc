@@ -2,7 +2,20 @@
 description: ""
 tags:
   - description des organisations
+wb:
+  - Nom: "nom"
+  - Domain: "Organisation"
+  - Range: "xsd:string"
+  - Cardinalité: "F/R"
+  - Qualificatifs:
+    - "début"
+    - "fin"
+    - "preuve"
+    - "source"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
+
 
 | **Nom** | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                                                                  |
 | ------- | ------------------------------------------------------- | ----------- | --------------- | ---------------------------------------------------------------------------------- |

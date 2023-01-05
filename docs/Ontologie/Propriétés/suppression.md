@@ -4,7 +4,14 @@ tags:
   - existence des organisations
   - bornes chronologiques
   - description des organisations
-
+wb:
+  - Nom: "suppression"
+  - Domain: "Organisation"
+  - Range: "xsd:date"
+  - Cardinalité: "F/NR"
+  - Qualificatifs:
+    - "preuve"
+    - "source"
 ---
 
 | **Nom**     | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
