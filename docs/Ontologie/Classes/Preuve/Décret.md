@@ -4,9 +4,9 @@ description: ""
 tags:
     - preuves
 owl:
-  - rdfs:label@fr: "Décret"
-  - rdf:type: "owl:Class"
-  - rdfs:subClassOf: "Preuve"
+  "rdfs:label@fr": "Décret"
+  "rdf:type": "owl:Class"
+  "rdfs:subClassOf": "Preuve"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

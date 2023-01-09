@@ -3,11 +3,11 @@ description: ""
 tags:
   - bornes chronologiques
 owl:
-  - rdfs:label@fr: "début"
-  - rdf:type: "owl:DatatypeProperty"
-  - rdfs:range: xsd:date
-  - owl:cardinality: F/NR
-  - pq: 
+  "rdfs:label@fr": "début"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:range": xsd:date
+  "owl:cardinality": F/NR
+  "pq": 
     - preuve
     - source
 ---

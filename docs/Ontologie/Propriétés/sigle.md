@@ -3,12 +3,12 @@ description: ""
 tags:
   - description des organisations
 owl:
-  - rdfs:label@fr: "sigle"
-  - rdf:type: "owl:DatatypeProperty"
-  - rdfs:domain: "Organisation"
-  - rdfs:range: "xsd:string"
-  - owl:cardinality: "F/R"
-  - pq:
+  "rdfs:label@fr": "sigle"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "xsd:string"
+  "owl:cardinality": "F/R"
+  "pq":
     - "début"
     - "fin"
     - "preuve"

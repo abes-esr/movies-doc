@@ -3,11 +3,11 @@ description: ""
 tags:
   - source
 owl:
-  - rdfs:label@fr: "source"
-  - rdfs:domain: null
-  - rdfs:range: "Data Provider"
-  - owl:cardinality: "F/R"
-  - pq: null
+  "rdfs:label@fr": "source"
+  "rdfs:domain": null
+  "rdfs:range": "Data Provider"
+  "owl:cardinality": "F/R"
+  "pq": null
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

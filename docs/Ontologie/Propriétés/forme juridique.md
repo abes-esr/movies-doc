@@ -3,12 +3,12 @@ description: ""
 tags:
   - description des organisations
 owl:
-  - rdfs:label@fr: "forme juridique"
-  - rdf:type: "owl:ObjectProperty"
-  - rdfs:domain: "Organisation"
-  - rdfs:range: "Forme Juridique"
-  - owl:cardinality: F/NR
-  - pq: null
+  "rdfs:label@fr": "forme juridique"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "Forme Juridique"
+  "owl:cardinality": F/NR
+  "pq": null
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

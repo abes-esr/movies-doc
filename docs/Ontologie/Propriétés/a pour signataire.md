@@ -1,11 +1,11 @@
 ---
 owl:
-  - rdfs:label@fr: "a pour signataire"
-  - rdf:type: "owl:ObjectProperty"
-  - rdfs:domain: "Contrat"
-  - rdfs:range: "Organisation"
-  - owl:cardinality: "O/R"
-  - pq:
+  "rdfs:label@fr": "a pour signataire"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Contrat"
+  "rdfs:range": "Organisation"
+  "owl:cardinality": "O/R"
+  "pq":
     - "preuve"
     - "source"
 ---

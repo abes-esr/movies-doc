@@ -3,12 +3,12 @@ description: ""
 tags:
   - contrats
 owl:
-  - rdfs:label@fr: "est bénéficiaire de"
-  - rdf:type: "owl:ObjectProperty"
-  - rdfs:domain: "Organisation"
-  - rdfs:range: "Contrat"
-  - owl:cardinality: "O/R"
-  - pq:
+  "rdfs:label@fr": "est bénéficiaire de"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "Contrat"
+  "owl:cardinality": "O/R"
+  "pq":
     - "début"
     - "fin"
     - "preuve"

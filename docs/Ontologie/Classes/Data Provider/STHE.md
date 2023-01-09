@@ -1,9 +1,9 @@
 ---
 slug: /Ontologie/Classes/STHE
 owl:
-  - rdfs:label@fr: "STHE"
-  - rdf:type: "owl:Class"
-  - rdfs:subClassOf: "Data Provider"
+  "rdfs:label@fr": "STHE"
+  "rdf:type": "owl:Class"
+  "rdfs:subClassOf": "Data Provider"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

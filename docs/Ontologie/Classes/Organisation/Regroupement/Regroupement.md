@@ -1,9 +1,9 @@
 ---
 slug: /Ontologie/Classes/Regroupement
 owl:
-  - rdfs:label@fr: "Regroupement"
-  - rdf:type: "owl:Class"
-  - rdfs:subClassOf: "Organisation"
+  "rdfs:label@fr": "Regroupement"
+  "rdf:type": "owl:Class"
+  "rdfs:subClassOf": "Organisation"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

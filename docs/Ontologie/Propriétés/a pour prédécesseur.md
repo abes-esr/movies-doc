@@ -3,12 +3,12 @@ description: ""
 tags:
   - généalogie
 owl:
-  - rdfs:label@fr: "a pour prédécesseur"
-  - rdf:type: "owl:ObjectProperty"
-  - rdfs:domain: "Organisation"
-  - rdfs:range: "Organisation"
-  - owl:cardinality: "F/R"
-  - pq:
+  "rdfs:label@fr": "a pour prédécesseur"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "Organisation"
+  "owl:cardinality": "F/R"
+  "pq":
     - "type"
     - "preuve"
     - "source"

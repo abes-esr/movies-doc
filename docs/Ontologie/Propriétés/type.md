@@ -4,12 +4,12 @@ tags:
   - composition des organisations
   - qualificatifs
 owl:
-  - rdfs:label@fr: "type"
-  - rdf:type: "owl:DatatypeProperty"
-  - rdfs:domain: null
-  - rdfs:range: null
-  - owl:cardinality: "F/R"
-  - pq: null
+  "rdfs:label@fr": "type"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": null
+  "rdfs:range": null
+  "owl:cardinality": "F/R"
+  "pq": null
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

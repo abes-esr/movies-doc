@@ -19,7 +19,7 @@ const GetPrefix = (string) => {
 }
 
 const LinkClassOrProperty = (context, value) => {
-    const linking_contexts = ["rdfs:domain", "rdfs:range", "pq"];
+    const linking_contexts = ["rdfs:domain", "rdfs:range", "pq", "rdfs:subClassOf"];
     const allowed_prefix = ["mov", null];
 
     if (linking_contexts.includes(context) && allowed_prefix.includes(GetPrefix(value))) {
@@ -51,28 +51,29 @@ export const OntologyTable = ({ frontMatter }) => (
     <table>
         <thead>
             <tr>
-                {frontMatter["owl"]
-                    .map((value) =>
-                        <th>
-                            {Object.keys(value)[0]}
-                        </th>
-                    )}
+                {
+                    Object.keys(frontMatter["owl"])
+                        .map((keys) =>
+                            <th>
+                                {keys}
+                            </th>
+                        )
+                }
             </tr>
         </thead>
         <tbody>
             <tr>
-                {frontMatter["owl"]
-                    .map((value) =>
-                        <td>
-                            {Object.entries(value).map(([key, values]) =>
-                                [values].flat()
-                                    .map((value) => {
-                                        let linked_data = LinkClassOrProperty(key, value);
-                                        return FormatQualifier(key, linked_data)
-                                    })
-                            )}
+                {Object.entries(frontMatter["owl"])
+                    .map(([key, value]) => {
+                        return <td>
+                            {
+                                [value].flat().map(value => {
+                                    return FormatQualifier(key, LinkClassOrProperty(key, value))
+                                })
+                            }
                         </td>
-                    )}
+                    }
+                )}
             </tr>
         </tbody>
     </table>

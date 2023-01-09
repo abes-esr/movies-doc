@@ -4,9 +4,9 @@ description: ""
 tags:
   - composition des organisations
 owl:
-  - rdfs:label@fr: "Membre associé"
-  - rdf:type: "owl:Class"
-  - rdfs:subClassOf: Appartenance
+  "rdfs:label@fr": "Membre associé"
+  "rdf:type": "owl:Class"
+  "rdfs:subClassOf": Appartenance
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

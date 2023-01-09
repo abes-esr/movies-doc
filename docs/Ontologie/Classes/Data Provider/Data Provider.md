@@ -1,8 +1,8 @@
 ---
 slug: /Ontologie/Classes/Data Provider
 owl:
-  - rdfs:label@fr: "Data Provider"
-  - rdf:type: "owl:Class"
+  "rdfs:label@fr": "Data Provider"
+  "rdf:type": "owl:Class"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>

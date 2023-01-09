@@ -3,12 +3,12 @@ description: ""
 tags:
   - composition des organisations
 owl:
-  - rdfs:label@fr: "est membre de"
-  - rdf:type: "owl:ObjectProperty"
-  - rdfs:domain: "Organisation"
-  - rdfs:range: "Organisation"
-  - owl:cardinality: "F/R"
-  - pq:
+  "rdfs:label@fr": "est membre de"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "Organisation"
+  "owl:cardinality": "F/R"
+  "pq":
     - "début"
     - "fin"
     - "preuve"
