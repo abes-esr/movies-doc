@@ -2,12 +2,12 @@
 description: ""
 tags:
   - bornes chronologiques
-wb:
-  - Nom: "début"
-  - Domain: null
-  - Range: xsd:date
-  - Cardinalité: F/NR
-  - Qualificatifs: 
+owl:
+  - rdfs:label@fr: "début"
+  - rdf:type: "owl:DatatypeProperty"
+  - rdfs:range: xsd:date
+  - owl:cardinality: F/NR
+  - pq: 
     - preuve
     - source
 ---

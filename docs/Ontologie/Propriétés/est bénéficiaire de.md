@@ -2,12 +2,13 @@
 description: ""
 tags:
   - contrats
-wb:
-  - Nom: "est bénéficiaire de"
-  - Domain: "Organisation"
-  - Range: "Contrat"
-  - Cardinalité: "O/R"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "est bénéficiaire de"
+  - rdf:type: "owl:ObjectProperty"
+  - rdfs:domain: "Organisation"
+  - rdfs:range: "Contrat"
+  - owl:cardinality: "O/R"
+  - pq:
     - "début"
     - "fin"
     - "preuve"
@@ -15,10 +16,6 @@ wb:
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**             | ***Domain***                                            | ***Range***                             | **Cardinalité** | **Qualificatifs**                                                                  |
-| ------------------- | ------------------------------------------------------- | --------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |
-| est bénéficiaire de | [Organisation](../Classes/Organisation/Organisation.md) | [Contrat](../Classes/Preuve/Contrat.md) | O/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

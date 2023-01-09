@@ -1,8 +1,15 @@
 ---
+slug: /Ontologie/Classes/Loi
 description: ""
 tags:
     - preuves
+owl:
+  - rdfs:label@fr: "Loi"
+  - rdf:type: "owl:Class"
+  - rdfs:subClassOf: "Preuve"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 ## Définition
 

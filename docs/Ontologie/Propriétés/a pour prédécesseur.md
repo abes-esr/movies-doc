@@ -2,22 +2,19 @@
 description: ""
 tags:
   - généalogie
-wb:
-  - Nom: "a pour prédécesseur"
-  - Domain: "Organisation"
-  - Range: "Organisation"
-  - Cardinalité: "F/R"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "a pour prédécesseur"
+  - rdf:type: "owl:ObjectProperty"
+  - rdfs:domain: "Organisation"
+  - rdfs:range: "Organisation"
+  - owl:cardinality: "F/R"
+  - pq:
     - "type"
     - "preuve"
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**             | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                               |
-| ------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | --------------------------------------------------------------- |
-| a pour prédécesseur | [Organisation](../Classes/Organisation/Organisation.md) | [Organisation](../Classes/Organisation/Organisation.md) | F/R             | [`type`](type.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

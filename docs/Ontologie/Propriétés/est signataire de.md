@@ -2,21 +2,18 @@
 description: ""
 tags:
   - contrats
-wb:
-  - Nom: "est signataire de"
-  - Domain: "Organisation"
-  - Range: "Contrat"
-  - Cardinalité: "O/R"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "est signataire de"
+  - rdf:type: "owl:ObjectProperty"
+  - rdfs:domain: "Organisation"
+  - rdfs:range: "Contrat"
+  - owl:cardinality: "O/R"
+  - pq:
     - preuve
     - source
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**           | ***Domain***                                            | ***Range***                             | **Cardinalité** | **Qualificatifs**                            |
-| ----------------- | ------------------------------------------------------- | --------------------------------------- | --------------- | -------------------------------------------- |
-| est signataire de | [Organisation](../Classes/Organisation/Organisation.md) | [Contrat](../Classes/Preuve/Contrat.md) | O/R             | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

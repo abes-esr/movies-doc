@@ -1,8 +1,15 @@
 ---
+slug: /Ontologie/Classes/Ordonnance
 description: ""
 tags:
     - preuves
+owl:
+  - rdfs:label@fr: "Ordonnance"
+  - rdf:type: "owl:Class"
+  - rdfs:subClassOf: "Preuve"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 ## Définition
 

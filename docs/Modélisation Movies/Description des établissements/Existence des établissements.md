@@ -38,10 +38,10 @@ graph LR
 
 L'existence des établissements peut être décrit avec les propriétés suivantes :
 
-| **Propriétés**                                        | ***Domain***                                                      | ***Range*** | ***Cardinalité*** | **Qualificatifs**                                                                            |
-| ----------------------------------------------------- | ----------------------------------------------------------------- | ----------- | ----------------- | -------------------------------------------------------------------------------------------- |
-| [création](../Ontologie/Propriétés/création.md)       | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | O/NR              | [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
-| [suppression](../Ontologie/Propriétés/suppression.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | xsd:date    | F/NR              | [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
+| **Propriétés**                                              | ***Domain***                                               | ***Range*** | ***Cardinalité*** | **Qualificatifs**                                                                                        |
+| ----------------------------------------------------------- | ---------------------------------------------------------- | ----------- | ----------------- | -------------------------------------------------------------------------------------------------------- |
+| [création](/movies-doc/Ontologie/Propriétés/création)       | [Organisation](/movies-doc/Ontologie/Classes/Organisation) | xsd:date    | O/NR              | [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
+| [suppression](/movies-doc/Ontologie/Propriétés/suppression) | [Organisation](/movies-doc/Ontologie/Classes/Organisation) | xsd:date    | F/NR              | [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
 
 
 ## Exemple : L'existence de la Comue Paris-Saclay

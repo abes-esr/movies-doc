@@ -2,20 +2,15 @@
 description: ""
 tags:
   - source
-wb:
-  - Nom: "source"
-  - Domain: null
-  - Range: "Data Provider"
-  - Cardinalité: "F/R"
-  - Qualificatifs: null
+owl:
+  - rdfs:label@fr: "source"
+  - rdfs:domain: null
+  - rdfs:range: "Data Provider"
+  - owl:cardinality: "F/R"
+  - pq: null
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom** | ***Domain*** | ***Range***                                                    | **Cardinalité** |
-| ------- | ------------ | -------------------------------------------------------------- | --------------- |
-| source  |              | [Data Provider](../Classes/Data%20Provider/Data%20Provider.md) | F/R             |
-
 
 ## Définition
 

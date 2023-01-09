@@ -1,8 +1,15 @@
 ---
+slug: /Ontologie/Classes/Preuve
 description: ""
 tags:
     - preuves
+owl:
+  - rdfs:label@fr: "Preuve"
+  - rdf:type: "owl:Class"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
+
 
 ## Définition
 

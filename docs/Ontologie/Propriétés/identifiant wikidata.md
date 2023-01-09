@@ -3,12 +3,13 @@ description: ""
 tags:
   - identifiants
   - description des organisations
-wb:
-  - Nom: "identifiant wikidata"
-  - Domain: "Organisation"
-  - Range: "xsd:string"
-  - Cardinalité: "F/NR?"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "identifiant wikidata"
+  - rdf:type: "owl:DatatypeProperty"
+  - rdfs:domain: "Organisation"
+  - rdfs:range: "xsd:string"
+  - owl:cardinality: "F/NR?"
+  - pq:
     - "début?"
     - "fin?"
     - "preuve"
@@ -16,11 +17,6 @@ wb:
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-
-| **Nom**              | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                                                                    |
-| -------------------- | ------------------------------------------------------- | ----------- | --------------- | ------------------------------------------------------------------------------------ |
-| identifiant wikidata | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/NR?           | [`début`](début.md)?, [`fin`](fin.md)?, [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

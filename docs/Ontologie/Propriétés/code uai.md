@@ -3,22 +3,18 @@ description: ""
 tags:
   - identifiants
   - description des organisations
-wb:
-  - Nom: "code uai"
-  - Domain: "Organisation"
-  - Range: "xsd:string"
-  - Cardinalité: "F/NR"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "code uai"
+  - rdf:type: "owl:DatatypeProperty"
+  - rdfs:domain: "Organisation"
+  - rdfs:range: "xsd:string"
+  - owl:cardinality: "F/NR"
+  - pq:
     - "preuve"
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**  | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
-| -------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |
-| code uai | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
-
 
 ## Définition
 

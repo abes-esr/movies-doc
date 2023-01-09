@@ -1,8 +1,15 @@
 ---
+slug: /Ontologie/Classes/Arrêté
 description: ""
 tags:
     - preuves
+owl:
+  - rdfs:label@fr: "Arrêté"
+  - rdf:type: "owl:Class"
+  - rdfs:subClassOf: "Preuve"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 ## Définition
 

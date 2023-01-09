@@ -1,6 +1,6 @@
 ---
 description: ""
-sidebar_position: 5
+sidebar_position: 2
 tags:
   - compétence doctorale
   - description des organisations
@@ -17,16 +17,16 @@ graph LR
     HAB -.->|début| xsd:date
     HAB -.->|fin| xsd:date
     HAB -.-> |preuve| PreuveHAB(Preuve)
-    HAB -.-> |source| SourceHAB[xsd:string]
+    HAB -.-> |source| SourceHAB(Data Provider)
     HAB --> Habilitation(Habilitation)
 ```
 
 ## Propriétés
 
 
-| **Propriétés**                                                                | ***Domain***                                                        | ***Range***                                          | **Qualificatifs**                                                                                                                                                                  |
-| ----------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [habilitation doctorale](../../Ontologie/Propriétés/habilitation%20doctorale.md) | [Organisation](../../Ontologie/Propriétés/habilitation%20doctorale.md) | [Habilitation](../../Ontologie/Classes/Habilitation.md) | [`début`](../../Ontologie/Propriétés/début.md), [`fin`](../../Ontologie/Propriétés/fin.md), [`preuve`](../../Ontologie/Propriétés/preuve.md), [`source`](../../Ontologie/Propriétés/source.md) |
+| **Propriétés**                                                                      | ***Domain***                                              | ***Range***                                                | **Qualificatifs**                                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [habilitation doctorale](/movies-doc/Ontologie/Propriétés/habilitation%20doctorale) | [Organisation](/movies-doc/Ontologie/Classe/Organisation) | [Habilitation](/movies-doc/Ontologie/Classes/Habilitation) | [`début`](/movies-doc/Ontologie/Propriétés/début), [`fin`](/movies-doc/Ontologie/Propriétés/fin), [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
 
 
 ## Exemple : L'habilitation doctorale de Paris-Saclay (COMUE)

@@ -1,8 +1,15 @@
 ---
+slug: /Ontologie/Classes/Décret
 description: ""
 tags:
     - preuves
+owl:
+  - rdfs:label@fr: "Décret"
+  - rdf:type: "owl:Class"
+  - rdfs:subClassOf: "Preuve"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 ## Définition
 
@@ -27,7 +34,7 @@ tags:
 >
 > Les décrets sont hiérarchisés en trois catégories : 
 > * les décrets délibérés en Conseil des ministres sont les plus importants et sont signés par le président de la République (selon la procédure décrite à l'article 13 de la Constitution) ;
-> * les décrets en Conseil d’État quand la consultation du Conseil d'État est obligatoire (par exemple pour les décrets qui modifient des lois antérieures à 1958) signés par le Premier ministre après avoir été soumis au Conseil d'État pour avis ;
+> * les décrets en Conseil d’État quand la consultation du Conseil d'État est obligatoire (par exemple pour les décrets qui modifient des lois antérieures à 1958) signés par le Premier ministre après avoir été soumis au Conseil d'État pour avis&nbsp;;
 > * enfin, les décrets simples, eux aussi pris par le Premier ministre, constituent le mode le plus fréquent d’exercice du pouvoir réglementaire.
 >
 > Les décrets sont publiés au Journal Officiel. Lorsque des procédures exigées par les textes (signature d’un décret pris en Conseil des ministres par le chef de l’État, par exemple) ne sont pas respectées, le décret peut être annulé par le Conseil d’État.

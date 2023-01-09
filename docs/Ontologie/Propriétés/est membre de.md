@@ -2,12 +2,13 @@
 description: ""
 tags:
   - composition des organisations
-wb:
-  - Nom: "est membre de"
-  - Domain: "Organisation"
-  - Range: "Organisation"
-  - Cardinalité: "F/R"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "est membre de"
+  - rdf:type: "owl:ObjectProperty"
+  - rdfs:domain: "Organisation"
+  - rdfs:range: "Organisation"
+  - owl:cardinality: "F/R"
+  - pq:
     - "début"
     - "fin"
     - "preuve"
@@ -15,10 +16,6 @@ wb:
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**       | ***Domain***                                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                                                  |
-| ------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |
-| est membre de | [Organisation](../Classes/Organisation/Organisation.md) | [Organisation](../Classes/Organisation/Organisation.md) | F/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

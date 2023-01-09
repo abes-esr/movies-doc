@@ -1,9 +1,16 @@
 ---
 description: ""
+slug: /Ontologie/Classes/Contrat
 tags:
   - contrats
   - preuves
+owl:
+  - rdfs:label@fr: "Contrat"
+  - rdf:type: "owl:Class"
+  - rdfs:subClassOf: "Preuve"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 ## Définition
 

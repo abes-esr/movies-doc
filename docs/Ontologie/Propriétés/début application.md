@@ -3,21 +3,18 @@ description: ""
 tags:
   - contrats
   - bornes chronologiques
-wb:
-  - Nom: "début application"
-  - Domain: "Preuve"
-  - Range: "xsd:date"
-  - Cardinalité: "F/NR"
-  - Qualificatifs:
+owl:
+  - rdfs:label@fr: "début application"
+  - rdf:type: "owl:DatatypeProperty"
+  - rdfs:domain: "Preuve"
+  - rdfs:range: "xsd:date"
+  - owl:cardinality: "F/NR"
+  - pq:
     - "preuve"
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**           | ***Domain***                          | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
-| ----------------- | ------------------------------------- | ----------- | --------------- | -------------------------------------------- |
-| début application | [Preuve](../Classes/Preuve/Preuve.md) | xsd:date    | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 
