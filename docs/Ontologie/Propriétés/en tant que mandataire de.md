@@ -4,7 +4,7 @@ tags:
   - contrats
   - qualificatifs
 owl:
-  "rdfs:label@fr": "en tant que mandataire"
+  "rdfs:label": "en tant que mandataire@fr"
   "rdf:type": "owl:ObjectProperty"
   "rdfs:domain": "est signataire de"
   "rdfs:range": "Organisation"

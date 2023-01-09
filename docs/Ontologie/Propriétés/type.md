@@ -4,7 +4,7 @@ tags:
   - composition des organisations
   - qualificatifs
 owl:
-  "rdfs:label@fr": "type"
+  "rdfs:label": "type@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": null
   "rdfs:range": null

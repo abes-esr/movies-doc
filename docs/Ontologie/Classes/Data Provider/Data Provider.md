@@ -1,7 +1,7 @@
 ---
 slug: /Ontologie/Classes/Data Provider
 owl:
-  "rdfs:label@fr": "Data Provider"
+  "rdfs:label": "Data Provider@fr"
   "rdf:type": "owl:Class"
 ---
 

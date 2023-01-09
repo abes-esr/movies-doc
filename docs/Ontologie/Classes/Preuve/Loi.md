@@ -4,7 +4,7 @@ description: ""
 tags:
     - preuves
 owl:
-  "rdfs:label@fr": "Loi"
+  "rdfs:label": "Loi@fr"
   "rdf:type": "owl:Class"
   "rdfs:subClassOf": "Preuve"
 ---

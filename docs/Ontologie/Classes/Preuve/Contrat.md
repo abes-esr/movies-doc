@@ -5,7 +5,7 @@ tags:
   - contrats
   - preuves
 owl:
-  "rdfs:label@fr": "Contrat"
+  "rdfs:label": "Contrat@fr"
   "rdf:type": "owl:Class"
   "rdfs:subClassOf": "Preuve"
 ---

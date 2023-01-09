@@ -3,7 +3,7 @@ description: ""
 tags:
   - source
 owl:
-  "rdfs:label@fr": "source"
+  "rdfs:label": "source@fr"
   "rdfs:domain": null
   "rdfs:range": "Data Provider"
   "owl:cardinality": "F/R"

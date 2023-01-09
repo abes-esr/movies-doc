@@ -3,7 +3,7 @@ description: ""
 tags:
   - bornes chronologiques
 owl:
-  "rdfs:label@fr": "fin"
+  "rdfs:label": "fin@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": null
   "rdfs:range": "xsd:date"

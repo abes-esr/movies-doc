@@ -4,7 +4,7 @@ tags:
   - contrats
   - qualificatifs
 owl:
-  "rdfs:label@fr": "en tant que mandant de"
+  "rdfs:label": "en tant que mandant de@fr"
   "rdf:type": "owl:ObjectProperty"
   "rdfs:domain": "est bénéficiaire de"
   "rdfs:range": "Organisation"

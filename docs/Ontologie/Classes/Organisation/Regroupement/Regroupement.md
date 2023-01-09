@@ -1,7 +1,7 @@
 ---
 slug: /Ontologie/Classes/Regroupement
 owl:
-  "rdfs:label@fr": "Regroupement"
+  "rdfs:label": "Regroupement@fr"
   "rdf:type": "owl:Class"
   "rdfs:subClassOf": "Organisation"
 ---

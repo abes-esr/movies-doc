@@ -4,7 +4,7 @@ description: ""
 tags:
   - composition des organisations
 owl:
-  "rdfs:label@fr": "Membre associé"
+  "rdfs:label": "Membre associé@fr"
   "rdf:type": "owl:Class"
   "rdfs:subClassOf": Appartenance
 ---

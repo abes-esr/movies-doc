@@ -5,7 +5,7 @@ tags:
   - bornes chronologiques
   - description des organisations
 owl:
-  "rdfs:label@fr": "création"
+  "rdfs:label": "création@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "xsd:date"

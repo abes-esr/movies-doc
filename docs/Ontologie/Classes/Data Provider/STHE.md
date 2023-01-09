@@ -1,7 +1,7 @@
 ---
 slug: /Ontologie/Classes/STHE
 owl:
-  "rdfs:label@fr": "STHE"
+  "rdfs:label": "STHE@fr"
   "rdf:type": "owl:Class"
   "rdfs:subClassOf": "Data Provider"
 ---

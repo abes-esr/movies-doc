@@ -5,7 +5,7 @@ tags:
   - compétence doctorale
   - description des organisations
 owl:
-  "rdfs:label@fr": "code établissement"
+  "rdfs:label": "code établissement@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "xsd:string"

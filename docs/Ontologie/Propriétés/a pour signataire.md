@@ -1,6 +1,6 @@
 ---
 owl:
-  "rdfs:label@fr": "a pour signataire"
+  "rdfs:label": "a pour signataire@fr"
   "rdf:type": "owl:ObjectProperty"
   "rdfs:domain": "Contrat"
   "rdfs:range": "Organisation"

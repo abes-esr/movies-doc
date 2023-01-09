@@ -3,7 +3,7 @@ description: ""
 tags:
   - description des organisations
 owl:
-  "rdfs:label@fr": "nom"
+  "rdfs:label": "nom@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "xsd:string"

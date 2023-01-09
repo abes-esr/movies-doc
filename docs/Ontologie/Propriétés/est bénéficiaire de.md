@@ -3,7 +3,7 @@ description: ""
 tags:
   - contrats
 owl:
-  "rdfs:label@fr": "est bénéficiaire de"
+  "rdfs:label": "est bénéficiaire de@fr"
   "rdf:type": "owl:ObjectProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "Contrat"

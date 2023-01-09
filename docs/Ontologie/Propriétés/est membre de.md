@@ -3,7 +3,7 @@ description: ""
 tags:
   - composition des organisations
 owl:
-  "rdfs:label@fr": "est membre de"
+  "rdfs:label": "est membre de@fr"
   "rdf:type": "owl:ObjectProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "Organisation"

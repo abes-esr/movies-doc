@@ -4,7 +4,7 @@ tags:
   - identifiants
   - description des organisations
 owl: 
-  "rdfs:label@fr": "identifiant idref"
+  "rdfs:label": "identifiant idref@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "xsd:string"

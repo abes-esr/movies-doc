@@ -4,7 +4,7 @@ tags:
   - identifiants
   - description des organisations
 owl:
-  "rdfs:label@fr": "identifiant légifrance"
+  "rdfs:label": "identifiant légifrance@fr"
   "rdf:type": "owl:DatatypeProperty"
   "rdfs:domain": "Organisation"
   "rdfs:range": "xsd:string"
