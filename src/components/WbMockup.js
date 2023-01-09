@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Claim({ emphase=false, property, children }) {
+const Claim = ({ emphase=false, property, children }) => {
     return (<div class="wb-container">
         <div class="claim-container">
             <a class={` ${emphase ? "emphase" : ""}`} href={"/movies-doc/Ontologie/Propriétés/" + property}>{property}</a>
@@ -11,8 +11,7 @@ function Claim({ emphase=false, property, children }) {
     </div>)
 };
 
-
-function Statement({emphase=false, value, children }) {
+const Statement = ({emphase=false, value, children }) => {
     return (<div class={`statement ${emphase ? "emphase" : ""}`}>
         <div class="value">
             {value}
@@ -21,14 +20,14 @@ function Statement({emphase=false, value, children }) {
     </div>)
 };
 
-function References({ children }) {
+const References = ({ children }) => {
     return (<div class="references-container">
         <a>▾ référence</a>
         {children}
     </div>)
 };
 
-function Reference({ children }) {
+const Reference = ({ children }) => {
     return (<div class="references-container">
         <div class="references">
             {children}
@@ -36,7 +35,7 @@ function Reference({ children }) {
     </div>)
 };
 
-function ReferenceElement({ emphase=false, property, children }) {
+const ReferenceElement = ({ emphase=false, property, children }) => {
     return (<div>
         <div class={`property ${emphase ? "emphase" : ""}`}>
             <a href={"/movies-doc/Ontologie/Propriétés/" + property}>{property}</a>
@@ -47,8 +46,7 @@ function ReferenceElement({ emphase=false, property, children }) {
     </div>)
 };
 
-
-function Qualifier({ emphase=false, property, children }) {
+const Qualifier = ({ emphase=false, property, children }) => {
     return (<div class={`qualifier-container ${emphase ? "emphase" : ""}`}>
         <div>
             <span class="property"><a href={"/movies-doc/Ontologie/Propriétés/" + property}>{property}</a></span><span class="qualifier-value"> {children}</span>
