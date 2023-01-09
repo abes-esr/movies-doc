@@ -31,12 +31,14 @@ graph LR
 
 ### Listes des ropriétés ne pouvant pas être bornées chronologiquement
 
-**Les propriétés internes à l'ontologie : **
+**Les propriétés internes à l'ontologie :**
+
 * [instance de](../Ontologie/Propriétés/instance%20de.md)
 <!-- * [sous classe de](../Ontologie/Propriétés/sous%20classe%20de.md) -->
 <!-- * [sous propriété de](../Ontologie/Propriétés/sous%20propriété%20de.md) -->
 
 **Les propriétés relatives aux dates :**
+
 * [début](../Ontologie/Propriétés/début.md)
 * [fin](../Ontologie/Propriétés/fin.md)
 * [fin application](../Ontologie/Propriétés/fin%20application.md)
@@ -44,6 +46,7 @@ graph LR
 * [suppression](../Ontologie/Propriétés/suppression.md)
 
 **Les identifiants :**
+
 * [code uai](../Ontologie/Propriétés/code%20uai.md)
 * [création](../Ontologie/Propriétés/création.md)
 * [identifiant siren](../Ontologie/Propriétés/identifiant%20siren.md)
@@ -59,9 +62,9 @@ graph LR
 * [uri](../Ontologie/Propriétés/uri.md)
 
 **autre :**
+
 * forme juridique (le changement de forme juridique entraîne la création d'une nouvelle entité)
 :::
-
 
 ## Exemple : Les bornes chronologique de l'habilitation de la COMUE Paris-Saclay à délivrer le doctorat
 

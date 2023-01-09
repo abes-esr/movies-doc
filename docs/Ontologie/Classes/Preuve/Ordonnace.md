@@ -27,7 +27,7 @@ owl:
 >
 > ### Comment les ordonnances entrent-elles dans la législation ?
 >
-> La loi d'habilitation votée par le Parlement précise la date avant laquelle le gouvernement est tenu de déposer un projet de loi de ratification des ordonnances. Si le gouvernement ne dépose pas un projet de loi de ratification dans le délai fixé, l'ordonnance devient caduque, l'état du droit antérieur est rétabli. Depuis la révision constitutionnelle du 23 juillet 2008 (nouvelle fenêtre), les ordonnances doivent être ratifiées de manière expresse. 
+> La loi d'habilitation votée par le Parlement précise la date avant laquelle le gouvernement est tenu de déposer un projet de loi de ratification des ordonnances. Si le gouvernement ne dépose pas un projet de loi de ratification dans le délai fixé, l'ordonnance devient caduque, l'état du droit antérieur est rétabli. Depuis la révision constitutionnelle du 23 juillet 2008 (nouvelle fenêtre), les ordonnances doivent être ratifiées de manière expresse.
 >
 > L'ordonnance n'acquiert pleinement valeur législative qu'après sa ratification par le Parlement.
 >
@@ -45,4 +45,4 @@ owl:
 >
 > La nature juridique de l’ordonnance non ratifiée est celle d’un acte mixte, pour partie législatif et pour partie réglementaire et qui est désormais potentiellement soumis à un double contrôle juridictionnel.
 >
-> (https://www.vie-publique.fr/fiches/20262-quest-ce-quune-ordonnance)
+> (<https://www.vie-publique.fr/fiches/20262-quest-ce-quune-ordonnance>)

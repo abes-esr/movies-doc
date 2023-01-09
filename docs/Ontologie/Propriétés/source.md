@@ -21,4 +21,3 @@ La propriété [`source`](source.md) permet de désigner le Data Porvider à l'o
 [`type`](type.md) ne s'utilise qu'en qualificatif d'une propriété.
 
 :::
-

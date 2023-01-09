@@ -10,10 +10,9 @@ owl:
 
 <OntologyTable frontMatter={frontMatter}/>
 
-
 ## Définition
 
-La classe preuve regroupe l'ensemble des preuves pouvant être utilisées dans la modélisation Movies. 
+La classe preuve regroupe l'ensemble des preuves pouvant être utilisées dans la modélisation Movies.
 
 :::caution
 

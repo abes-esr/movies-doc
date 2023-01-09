@@ -21,6 +21,7 @@ graph LR
     CREA -..-> |preuve| P
     CREA -..-> |source| xsd:string
 ```
+
 ### Suppression
 
 ```mermaid
@@ -42,7 +43,6 @@ L'existence des établissements peut être décrit avec les propriétés suivant
 | ----------------------------------------------------------- | ---------------------------------------------------------- | ----------- | ----------------- | -------------------------------------------------------------------------------------------------------- |
 | [création](/movies-doc/Ontologie/Propriétés/création)       | [Organisation](/movies-doc/Ontologie/Classes/Organisation) | xsd:date    | O/NR              | [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
 | [suppression](/movies-doc/Ontologie/Propriétés/suppression) | [Organisation](/movies-doc/Ontologie/Classes/Organisation) | xsd:date    | F/NR              | [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
-
 
 ## Exemple : L'existence de la Comue Paris-Saclay
 

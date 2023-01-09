@@ -46,7 +46,6 @@ graph LR
 | [a pour successeur](/movies-doc/Ontologie/Propriétés/a%20pour%20successeur)     | [Organisation](/movies-doc/Ontologie/Classes/Organisation/) | [Organisation](/movies-doc/Ontologie/Classes/Organisation/Organisation) | F/R               | [`type`](/movies-doc/Ontologie/Propriétés/type), [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
 | [type](/movies-doc/Ontologie/Propriétés/type)                                   |                                                             | Type                                                                    | F/NR              | [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source)                                                  |
 
-
 ## Exemple : Généalogie de l'Université Paris-Saclay (COMUE)
 
 <Claim emphase="true" property="a pour prédécesseur">

@@ -19,4 +19,3 @@ owl:
 ## Définition
 
 Permet de désigner les mandants d'un contrat. La propriété `en tant que mandat de` doit être utilisée comme qualificatif de la propriété `est bénéficiaire de`.
-

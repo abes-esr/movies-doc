@@ -25,4 +25,4 @@ owl:
 >
 > De plus, la loi devient contestable, puisque le Conseil constitutionnel peut en contrôler la conformité à des normes supérieures : la Constitution, son préambule, celui de la Constitution de 1946, la Déclaration de 1789, la Charte de l’environnement et, dans une certaine mesure, les lois organiques, voire aussi certaines lois (ex : loi de 1901 sur les associations), au titre des "principes fondamentaux reconnus par les lois de la République."
 >
-> (https://www.vie-publique.fr/fiches/19508-quest-ce-que-la-loi)
+> (<https://www.vie-publique.fr/fiches/19508-quest-ce-que-la-loi>)

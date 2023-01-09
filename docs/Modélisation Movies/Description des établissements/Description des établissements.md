@@ -22,5 +22,3 @@ tags:
 | [identifiant wikidata](../Ontologie/Propriétés/identifiant%20wikidata.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md)    | xsd:string      | F/NR?                          |                                                                                                                                                                                    |
 | [identifiant hal](../Ontologie/Propriétés/identifiant%20hal.md)           | [Organisation](../Ontologie/Classes/Organisation/Organisation.md)    | xsd:string      | F/NR                           |                                                                                                                                                                                    |
 | [identifiant rnsr](../Ontologie/Propriétés/identifiant%20rnsr.md)         | [Organisation](../Ontologie/Classes/Organisation/Organisation.md)    | xsd:string      | F/NR                           |                                                                                                                                                                                    |
-
-

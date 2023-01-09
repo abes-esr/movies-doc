@@ -8,4 +8,4 @@ slug: /Ontologie/Classes/EPE
 > Les établissements regroupés dans l'établissement public expérimental peuvent conserver leur personnalité morale. Ils sont dénommés « établissements-composantes » de l'établissement public expérimental.
 > Un établissement-composante ne peut participer qu'à un seul établissement public expérimental.
 >
-> (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037800979/)
+> (<https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037800979/>)

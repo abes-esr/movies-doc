@@ -26,8 +26,7 @@ Preuve
 | ------------------------------------------------- | ------------ | ---------------------------------------------- | ----------- |
 | [preuve](/movies-doc/Ontologie/Propriétés/preuve) |              | [Preuve](/movies-doc/Ontologie/Classes/Preuve) | F/R         |
 
-
-## Exemple : 
+## Exemple
 
 <Claim property="habilitation doctorale">
     <Statement value="Habilitation doctorale">

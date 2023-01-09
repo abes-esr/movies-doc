@@ -75,10 +75,9 @@ graph LR
 
 Date de début d'application d'un texte réglementaire ou d'un contrat
 
-
 ## Exemple : Les contrats de documentation électronique de Paris 11
 
-Université Paris-Saclay (EPE) 
+Université Paris-Saclay (EPE)
 
 <Claim property="est signataire de">
     <Statement value="Contrat Wiley 2022-03">
