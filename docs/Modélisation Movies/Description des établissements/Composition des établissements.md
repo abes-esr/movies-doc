@@ -38,11 +38,11 @@ graph LR
 
 Les propriétés suivantes peuvent être utilisées pour rendre compte de la compisition d'un établissement :
 
-| Propriétés                                                    | *Domain*                                                          | *Range*                                                           | **Cardinalité** | **Qualificatifs**                                                                                                                                                                  |
-| ------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [est membre de](../Ontologie/Propriétés/est%20membre%20de.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | [Organisation](../Ontologie/Classes/Organisation/Organisation.md) | F/R             | [`début`](../Ontologie/Propriétés/début.md), [`fin`](../Ontologie/Propriétés/fin.md), [`preuve`](../Ontologie/Propriétés/preuve.md), [`source`](../Ontologie/Propriétés/source.md) |
+| Propriétés                                                          | *Domain*                                                   | *Range*                                                    | **Cardinalité** | **Qualificatifs**                                                                                                                                                                                          |
+| ------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [est membre de](/movies-doc/Ontologie/Propriétés/est%20membre%20de) | [Organisation](/movies-doc/Ontologie/Classes/Organisation) | [Organisation](/movies-doc/Ontologie/Classes/Organisation) | F/R             | [`début`](/movies-doc/Ontologie/Propriétés/début), [`fin`](/movies-doc/Ontologie/Propriétés/fin), [`preuve`](/movies-doc/Ontologie/Propriétés/preuve), [`source`](/movies-doc/Ontologie/Propriétés/source) |
 
-Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](../Ontologie/Propriétés/début.md) et [`fin`](../Ontologie/Propriétés/fin.md). Chacune des assertions peut être complétée par une preuve et une source.
+Chacune des propriétés listées ci-dessus peut être bornée dans le temps avec les propriétés [`début`](/movies-doc/Ontologie/Propriétés/début) et [`fin`](/movies-doc/Ontologie/Propriétés/fin). Chacune des assertions peut être complétée par une preuve et une source.
 
 ## Exemple : Les membres de l'EPE Paris-Saclay
 

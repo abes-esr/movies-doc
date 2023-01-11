@@ -1,8 +1,14 @@
 ---
+slug: /Ontologie/Classes/Appartenance
 description: ""
 tags:
   - composition des organisations
+owl:
+  "rdfs:label": "Appartenance@fr"
+  "rdf:type": "owl:Class"
 ---
+
+<OntologyTable frontMatter={frontMatter}/>
 
 ## Définition
 

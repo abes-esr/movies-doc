@@ -13,3 +13,11 @@ Les cardinalités sont exprimées de la manière suivante :
 * **O** : Obligatoire
 * **R** : Répétable
 * **NR** : Non répétable
+
+## Préfixes
+
+* **rdf** :
+* **rdfs** :
+* **owl** :
+* **pq** :
+* **mov** :

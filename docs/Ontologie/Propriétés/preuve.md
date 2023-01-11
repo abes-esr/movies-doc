@@ -3,22 +3,16 @@ description: ""
 tags:
   - qualificatifs
   - preuves
-wb:
-  - Nom: "preuve"
-  - Domain: null
-  - Range: "Preuve"
-  - Cardinalité: "F/R"
-  - Qualificatifs:
+owl:
+  "rdfs:label": "preuve@fr"
+  "rdfs:domain": null
+  "rdfs:range": "Preuve"
+  "owl:cardinality": "F/R"
+  "pq":
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-
-| **Nom** | ***Domain*** | ***Range***                           | **Cardinalité** | **Qualificatifs**     |
-| ------- | ------------ | ------------------------------------- | --------------- | --------------------- |
-| preuve  |              | [Preuve](../Classes/Preuve/Preuve.md) | F/R             | [`source`](source.md) |
-
 
 ## Définition
 

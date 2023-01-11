@@ -2,25 +2,20 @@
 description: ""
 tags:
   - description des organisations
-wb:
-  - Nom: "forme juridique"
-  - Domain: "Organisation"
-  - Range: "Forme Juridique"
-  - Cardinalité: F/NR
-  - Qualificatifs: null
+owl:
+  "rdfs:label": "forme juridique@fr"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "Forme Juridique"
+  "owl:cardinality": F/NR
+  "pq": null
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
 
-| **Nom**         | ***Domain***                                            | ***Range***     | **Cardinalité** |
-| --------------- | ------------------------------------------------------- | --------------- | --------------- |
-| forme juridique | [Organisation](../Classes/Organisation/Organisation.md) | Forme Juridique | F/NR            |
-
-
 ## Définition
 
 Permet de désigner la forme juridique d'une `Organisation`. Un établissement n'a qu'une forme juridique. Le changement de forme juridique entraîne la création d'une nouvelle entité.
-
 
 :::info
 

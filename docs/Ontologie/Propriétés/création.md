@@ -4,21 +4,18 @@ tags:
   - existence des organisations
   - bornes chronologiques
   - description des organisations
-wb:
-  - Nom: "création"
-  - Domain: "Organisation"
-  - Range: "xsd:date"
-  - Cardinalité: "F/NR"
-  - Qualificatifs:
+owl:
+  "rdfs:label": "création@fr"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "xsd:date"
+  "owl:cardinality": "F/NR"
+  "pq":
     - "preuve"
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**  | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
-| -------- | ------------------------------------------------------- | ----------- | --------------- | -------------------------------------------- |
-| création | [Organisation](../Classes/Organisation/Organisation.md) | xsd:date    | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

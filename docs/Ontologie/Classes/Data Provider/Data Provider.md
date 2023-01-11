@@ -1,6 +1,15 @@
+---
+slug: /Ontologie/Classes/Data Provider
+owl:
+  "rdfs:label": "Data Provider@fr"
+  "rdf:type": "owl:Class"
+---
+
+<OntologyTable frontMatter={frontMatter}/>
+
 ## Définition
 
-Agent responsable d'un import dans la base de données Movies. Le data provider est utilisé comme objet d'une propriété [source](../../Propriétés/source.md).
+Agent responsable d'un import dans la base de données Movies. Le data provider est utilisé comme objet d'une propriété [source](/movies-doc/Ontologie/Propriétés/source).
 
 :::caution
 

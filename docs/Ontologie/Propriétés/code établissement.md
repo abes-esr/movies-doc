@@ -4,18 +4,15 @@ tags:
   - identifiants
   - compétence doctorale
   - description des organisations
-wb:
-  - Nom: "code établissement"
-  - Domain: "Organisation"
-  - Range: "xsd:string"
-  - Cardinalité: "F/NR"
+owl:
+  "rdfs:label": "code établissement@fr"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "xsd:string"
+  "owl:cardinality": "F/NR"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**            | ***Domain***                                            | ***Range*** | **Cardinalité** |
-| ------------------ | ------------------------------------------------------- | ----------- | --------------- |
-| code établissement | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/NR            |
 
 ## Définition
 

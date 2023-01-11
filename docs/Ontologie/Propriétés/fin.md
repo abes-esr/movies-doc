@@ -2,22 +2,18 @@
 description: ""
 tags:
   - bornes chronologiques
-wb:
-  - Nom: "fin"
-  - Domain: null
-  - Range: "xsd:date"
-  - Cardinalité: "F/NR"
-  - Qualificatifs:
+owl:
+  "rdfs:label": "fin@fr"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": null
+  "rdfs:range": "xsd:date"
+  "owl:cardinality": "F/NR"
+  "pq":
     - "preuve"
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom** | ***Domain*** | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
-| ------- | ------------ | ----------- | --------------- | -------------------------------------------- |
-| fin     |              | xsd:date    | F/NR            | [`preuve`](preuve.md), [`source`](source.md) |
-
 
 ## Définition
 

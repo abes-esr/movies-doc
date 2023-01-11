@@ -3,21 +3,18 @@ description: ""
 tags:
   - identifiants
   - contrats
-wb: 
-  - Nom: "identifiant contrat"
-  - Domain: "Contrat"
-  - Range: "xsd:string"
-  - Cardinalité: "O/NR"
-  - Qualificatifs:
+owl: 
+  "rdfs:label": "identifiant contrat@fr"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": "Contrat"
+  "rdfs:range": "xsd:string"
+  "owl:cardinality": "O/NR"
+  "pq":
     - "preuve"
     - "source"
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**             | ***Domain***                            | ***Range*** | **Cardinalité** | **Qualificatifs**                            |
-| ------------------- | --------------------------------------- | ----------- | --------------- | -------------------------------------------- |
-| identifiant contrat | [Contrat](../Classes/Preuve/Contrat.md) | xsd:string  | O/NR            | [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

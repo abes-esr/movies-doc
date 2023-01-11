@@ -2,20 +2,15 @@
 description: ""
 tags:
   - source
-wb:
-  - Nom: "source"
-  - Domain: null
-  - Range: "Data Provider"
-  - Cardinalité: "F/R"
-  - Qualificatifs: null
+owl:
+  "rdfs:label": "source@fr"
+  "rdfs:domain": null
+  "rdfs:range": "Data Provider"
+  "owl:cardinality": "F/R"
+  "pq": null
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom** | ***Domain*** | ***Range***                                                    | **Cardinalité** |
-| ------- | ------------ | -------------------------------------------------------------- | --------------- |
-| source  |              | [Data Provider](../Classes/Data%20Provider/Data%20Provider.md) | F/R             |
-
 
 ## Définition
 
@@ -26,4 +21,3 @@ La propriété [`source`](source.md) permet de désigner le Data Porvider à l'o
 [`type`](type.md) ne s'utilise qu'en qualificatif d'une propriété.
 
 :::
-

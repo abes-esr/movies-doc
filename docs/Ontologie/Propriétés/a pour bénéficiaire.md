@@ -2,12 +2,13 @@
 description: ""
 tags:
   - contrats
-wb:
-  - Nom: "a pour bénéficiaire"
-  - Domain: "Contrat"
-  - Range: "Organisation"
-  - Cardinalité: "O/R"
-  - Qualificatifs:
+owl:
+  "rdfs:label": "a pour bénéficiaire@fr"
+  "rdf:type": "owl:ObjectProperty"
+  "rdfs:domain": "Contrat"
+  "rdfs:range": "Organisation"
+  "owl:cardinality": "O/R"
+  "pq":
     - "début"
     - "fin"
     - "preuve"
@@ -15,10 +16,6 @@ wb:
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom**             | ***Domain***                            | ***Range***                                             | **Cardinalité** | **Qualificatifs**                                                                  |
-| ------------------- | --------------------------------------- | ------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------- |
-| a pour bénéficiaire | [Contrat](../Classes/Preuve/Contrat.md) | [Organisation](../Classes/Organisation/Organisation.md) | O/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 

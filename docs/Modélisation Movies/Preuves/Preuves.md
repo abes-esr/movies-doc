@@ -1,6 +1,6 @@
 ---
 description: ""
-sidebar_position: 1
+sidebar_position: 5
 tags:
   - preuves
 ---
@@ -22,12 +22,11 @@ Preuve
 
 ## Propriétés
 
-| **Propriétés**                              | ***Domain*** | ***Range***                                    | Cardinalité |
-| ------------------------------------------- | ------------ | ---------------------------------------------- | ----------- |
-| [preuve](../../Ontologie/Propriétés/preuve.md) |              | [Preuve](../../Ontologie/Classes/Preuve/Preuve.md) | F/R         |
+| **Propriétés**                                    | ***Domain*** | ***Range***                                    | Cardinalité |
+| ------------------------------------------------- | ------------ | ---------------------------------------------- | ----------- |
+| [preuve](/movies-doc/Ontologie/Propriétés/preuve) |              | [Preuve](/movies-doc/Ontologie/Classes/Preuve) | F/R         |
 
-
-## Exemple : 
+## Exemple
 
 <Claim property="habilitation doctorale">
     <Statement value="Habilitation doctorale">

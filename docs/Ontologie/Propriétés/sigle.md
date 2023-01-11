@@ -2,12 +2,13 @@
 description: ""
 tags:
   - description des organisations
-wb:
-  - Nom: "sigle"
-  - Domain: "Organisation"
-  - Range: "xsd:string"
-  - Cardinalité: "F/R"
-  - Qualificatifs:
+owl:
+  "rdfs:label": "sigle@fr"
+  "rdf:type": "owl:DatatypeProperty"
+  "rdfs:domain": "Organisation"
+  "rdfs:range": "xsd:string"
+  "owl:cardinality": "F/R"
+  "pq":
     - "début"
     - "fin"
     - "preuve"
@@ -15,10 +16,6 @@ wb:
 ---
 
 <OntologyTable frontMatter={frontMatter}/>
-
-| **Nom** | ***Domain***                                            | ***Range*** | **Cardinalité** | **Qualificatifs**                                                                  |
-| ------- | ------------------------------------------------------- | ----------- | --------------- | ---------------------------------------------------------------------------------- |
-| sigle   | [Organisation](../Classes/Organisation/Organisation.md) | xsd:string  | F/R             | [`début`](début.md), [`fin`](fin.md), [`preuve`](preuve.md), [`source`](source.md) |
 
 ## Définition
 
