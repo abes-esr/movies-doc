@@ -5,7 +5,7 @@ tags:
   - bornes chronologiques
 ---
 
-Les propriétés de la modélisation Movies peuvent être bornées dans le temps grâce aux propriétés [`début`](../Ontologie/Propriétés/début.md) et [`fin`](../Ontologie/Propriétés/fin.md).
+Les propriétés de la modélisation Movies peuvent être bornées dans le temps grâce aux propriétés [`début`](/movies-doc/Ontologie/Propriétés/début) et [`fin`](/movies-doc/Ontologie/Propriétés/fin).
 
 ## Modélisation
 
@@ -24,8 +24,8 @@ graph LR
 
 | **Propriétés**                            | ***Domain*** | ***Range*** |
 | ----------------------------------------- | ------------ | ----------- |
-| [début](../Ontologie/Propriétés/début.md) |              | xsd:date    |
-| [fin](../Ontologie/Propriétés/fin.md)     |              | xsd:date    |
+| [début](/movies-doc/Ontologie/Propriétés/début) |              | xsd:date    |
+| [fin](/movies-doc/Ontologie/Propriétés/fin)     |              | xsd:date    |
 
 :::caution
 
@@ -33,33 +33,33 @@ graph LR
 
 **Les propriétés internes à l'ontologie :**
 
-* [instance de](../Ontologie/Propriétés/instance%20de.md)
-<!-- * [sous classe de](../Ontologie/Propriétés/sous%20classe%20de.md) -->
-<!-- * [sous propriété de](../Ontologie/Propriétés/sous%20propriété%20de.md) -->
+* [instance de](/movies-doc/Ontologie/Propriétés/instance%20de)
+<!-- * [sous classe de](/movies-doc/Ontologie/Propriétés/sous%20classe%20de) -->
+<!-- * [sous propriété de](/movies-doc/Ontologie/Propriétés/sous%20propriété%20de) -->
 
 **Les propriétés relatives aux dates :**
 
-* [début](../Ontologie/Propriétés/début.md)
-* [fin](../Ontologie/Propriétés/fin.md)
-* [fin application](../Ontologie/Propriétés/fin%20application.md)
-* [début application](../Ontologie/Propriétés/début%20application.md)
-* [suppression](../Ontologie/Propriétés/suppression.md)
+* [début](/movies-doc/Ontologie/Propriétés/début)
+* [fin](/movies-doc/Ontologie/Propriétés/fin)
+* [fin application](/movies-doc/Ontologie/Propriétés/fin%20application)
+* [début application](/movies-doc/Ontologie/Propriétés/début%20application)
+* [suppression](/movies-doc/Ontologie/Propriétés/suppression)
 
 **Les identifiants :**
 
-* [code uai](../Ontologie/Propriétés/code%20uai.md)
-* [création](../Ontologie/Propriétés/création.md)
-* [identifiant siren](../Ontologie/Propriétés/identifiant%20siren.md)
-* [identifiant siret](../Ontologie/Propriétés/identifiant%20siret.md)
-* [identifiant idref](../Ontologie/Propriétés/identifiant%20idref.md)
-* [identifiant rsnr](../Ontologie/Propriétés/identifiant%20rnsr.md)
-* [identifiant wikidata](../Ontologie/Propriétés/identifiant%20wikidata.md)
-* [identifiant hal](../Ontologie/Propriétés/identifiant%20hal.md)
-* [identifiant legifrance](../Ontologie/Propriétés/identifiant%20legifrance.md)
-* [identifiant paysage](../Ontologie/Propriétés/identifiant%20paysage.md)
-* [identifiant scanr](../Ontologie/Propriétés/identifiant%20scanr.md)
-* [identifiant contrat](../Ontologie/Propriétés/identifiant%20contrat.md)
-* [uri](../Ontologie/Propriétés/uri.md)
+* [code uai](/movies-doc/Ontologie/Propriétés/code%20uai)
+* [création](/movies-doc/Ontologie/Propriétés/création)
+* [identifiant siren](/movies-doc/Ontologie/Propriétés/identifiant%20siren)
+* [identifiant siret](/movies-doc/Ontologie/Propriétés/identifiant%20siret)
+* [identifiant idref](/movies-doc/Ontologie/Propriétés/identifiant%20idref)
+* [identifiant rsnr](/movies-doc/Ontologie/Propriétés/identifiant%20rnsr)
+* [identifiant wikidata](/movies-doc/Ontologie/Propriétés/identifiant%20wikidata)
+* [identifiant hal](/movies-doc/Ontologie/Propriétés/identifiant%20hal)
+* [identifiant legifrance](/movies-doc/Ontologie/Propriétés/identifiant%20legifrance)
+* [identifiant paysage](/movies-doc/Ontologie/Propriétés/identifiant%20paysage)
+* [identifiant scanr](/movies-doc/Ontologie/Propriétés/identifiant%20scanr)
+* [identifiant contrat](/movies-doc/Ontologie/Propriétés/identifiant%20contrat)
+* [uri](/movies-doc/Ontologie/Propriétés/uri)
 
 **autre :**
 
